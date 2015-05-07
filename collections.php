@@ -1,13 +1,8 @@
-<html>
-<head>
-	
-	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-<head>
-</head>
-<body>
+<?php include 'masterindex.php' ?>
+<?php
+echo $header . $nav . $content_before;
+?>
 	<div class="row">
 		<h1>Portfolio of Works</h1>
 		<div class="large-6 columns">
@@ -53,7 +48,4 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 		</div>
 	</div>
-
-
-</body>
-</html>
+<?php echo $content_after; ?>
