@@ -13,7 +13,7 @@ $header = '
         <header>
             <div class="topbar"></div>
             <div class="row">
-                <a href="main.html" class="logo"><h1 class="large-6 columns">Artist Name</h1></a>
+                <a href="main.php" class="logo"><h1 class="large-6 columns">Artist Name</h1></a>
             <!-- </div> -->
         </header>'; ?>
 
