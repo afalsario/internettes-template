@@ -1,4 +1,3 @@
-
 <?php include 'masterindex.php' ?>
 <?php
 echo $header . $nav . $content_before;
@@ -48,4 +47,5 @@ echo $header . $nav . $content_before;
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 		</div>
 	</div>
+
 <?php echo $content_after; ?>
