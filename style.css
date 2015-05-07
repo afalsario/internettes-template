@@ -63,7 +63,7 @@ body {
   background: #fff;
   color: #808080;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arial Narrow", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -74,6 +74,11 @@ body {
 a:hover {
   cursor: pointer;
   color: #000;
+}
+
+.padding {
+  width: 100%;
+  height: 80px;
 }
 
 img {
@@ -1155,8 +1160,35 @@ select {
     right: 91.66667%;
     left: auto; } }
 
+/*********************************Header*********************************/
+
+.topbar {
+    height: 30px;
+    width:100%;
+    background-color: #808080;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+a.logo {
+  font-family: "Arial Black" , Gadget, sans-serif;
+  text-decoration: none;
+  color: #808080;
+}
+
+
+
 /*********************************Nav Menu*********************************/
 
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    font-size: 24px;
+    font-weight: 100;
+}
 
 /*Strip the ul of padding and list styling*/
 ul {
@@ -1198,9 +1230,10 @@ ul li a:hover + .hidden, .hidden:hover {
 /*Style 'show menu' label button and hide it by default*/
 .mobile-menu {
   text-decoration: none;
-  text-align: right;
+  text-align: center;
   padding: 10px 0;
   display: none;
+  font-size: 24px;
 }
 
 /*Hide checkbox*/
@@ -1214,9 +1247,55 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 
+
+
+/*********************************Sidebar*********************************/
+
+.sidebar {
+    background-color: grey;
+    height:auto;
+}
+
+.sidebar p {
+  color: #000;
+}
+
+/*********************************Footer*********************************/
+
+footer {
+  max-height: 100%;
+  background-color: #808080;
+}
+
+footer p {
+  margin: 0;
+  color:#000;
+  line-height: 40px;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+/*********************************Custom CSS*********************************/
+
+
+
+div.desc {
+    padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+img.collect_image {
+  width:600px;
+  height: 300px;
+}
+
+
+
 /*Responsive Styles*/
 
-@media screen and (max-width : 640px){
+@media screen and (max-width : 1024px){
   /*Make dropdown links appear inline*/
   ul {
     position: static;
@@ -1233,59 +1312,16 @@ input[type=checkbox]:checked ~ #menu{
     text-align: center;
   }
 
-    nav li:hover{
-      background-color: lightgrey;
-    }
+  nav li:hover{
+    background-color: lightgrey;
+  }
+
+  nav li {
+    padding-right: 0;
+  }
+
   /*Display 'show menu' link*/
   .mobile-menu {
     display:block;
   }
-}
-
-/*********************************Sidebar*********************************/
-
-.sidebar {
-    background-color: grey;
-    height:auto;
-}
-
-
-/*********************************Custom CSS*********************************/
-
-
-
-.topbar {
-    height: 30px;
-    width:100%;
-    background-color: #808080;
-}
-
-h1 {
-    font-size: 34px;
-}
-
-a.logo {
-  text-decoration: none;
-  color: #808080;
-}
-
-nav li {
-    list-style: none;
-    display: inline;
-    padding-right: 20px;
-}
-
-div.desc {
-    padding-top: 20px;
-   padding-bottom: 60px;
-}
-
-img.collect_image {
-  width:600px;
-  height: 300px;
-}
-
-.padding {
-  width: 100%;
-  height: 80px;
 }
