@@ -1,5 +1,4 @@
 <?php
-
 $header = '
 <!DOCTYPE html>
 <html>
@@ -10,17 +9,13 @@ $header = '
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <header>
-            <div class="topbar"></div>
-            <div class="row">
+        <div class="topbar"></div>
+            <header class="row">
                 <a href="main.php" class="logo"><h1 class="large-6 columns">Artist Name</h1></a>
-            <!-- </div> -->
-        </header>'; ?>
-
+            </header>'; ?>
 <?php $nav =
-
-// <div class="row">
-            '<nav class="large-offset-5 columns">
+        '<div class="row">
+            <nav class="large-8 right columns">
                 <label for="mobile-menu" class="mobile-menu">Menu</label>
                 <input type="checkbox" id="mobile-menu" role="button">
                 <ul id="menu">
@@ -36,15 +31,12 @@ $header = '
         </div>' ?>
 
 <?php $content_before =
-
         '<div class="padding"></div>
-
         <div class="row">
             <section class="large-9 medium-9 columns">
                 <div>'?>
 
 <?php $content_after =
-
                 '</div>
             </section>
             <aside class="sidebar large-3 medium-3 columns">
