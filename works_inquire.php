@@ -30,3 +30,4 @@ echo $header . $nav . $content_before;
     </form>
 </div>
 <?php echo $content_after; ?>
+<?php echo $footer; ?>

@@ -49,3 +49,4 @@ echo $header . $nav . $content_before;
 	</div>
 
 <?php echo $content_after; ?>
+<?php echo $footer; ?>

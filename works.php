@@ -2,31 +2,26 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
-
-<div class="row">
-	<div class="medium-3 large-3 columns ">
-		<section class="box_feature">
-			<a href="#" class="image featured"><img src="images/blueflowers.png" alt="" /></a>
-		</section>
-	</div>
-	<div class="medium-3 large-3 columns">
-		<!-- Box -->
-		<section class="box_feature">
-			<a href="#" class="image featured"><img src="images/redflowers.png" alt="" /></a>
-		</section>
-	</div>
-	<div class="medium-3 large-3 columns">
-		<!-- Box -->
-		<section class="box_feature">
-			<a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
-		</section>
-	</div>
-	<div class="medium-3 large-3 columns">
-		<!-- Box -->
-		<section class="box_feature">
-			<a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
-		</section>
-	</div>
+<div class="grid">
+   <img src="http://placehold.it/350x230" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x230" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
 </div>
 
+
+
 <?php echo $content_after; ?>
+<?php echo $footer; ?>
