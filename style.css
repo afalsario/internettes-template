@@ -52,7 +52,7 @@ body {
   width:100%; }
 
 body {
-  background: #fff;
+  background: #ebe8de;
   color: #808080;
   cursor: auto;
   font-family: "Arial Narrow", Helvetica, Roboto, Arial, sans-serif;
@@ -1158,7 +1158,7 @@ select {
 .topbar {
     height: 30px;
     width:100%;
-    background-color: #808080;
+    background-color: #e56038;
 }
 
 h1 {
@@ -1166,9 +1166,9 @@ h1 {
 }
 
 a.logo {
-  font-family: "Arial Black" , Gadget, sans-serif;
+  font-family: 'Baumans', cursive;
   text-decoration: none;
-  color: #808080;
+  color: #e56038;
 }
 
 
@@ -1257,7 +1257,7 @@ input[type=checkbox]:checked ~ #menu{
 
 footer {
   max-height: 100%;
-  background-color: #808080;
+  background-color: #e56038;
 }
 
 footer p {

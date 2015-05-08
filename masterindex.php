@@ -6,6 +6,7 @@ $header = '
         <meta charset="UTF-8">
         <title>Internettes Template</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="http://fonts.googleapis.com/css?family=Baumans" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
