@@ -20,12 +20,15 @@ $header = '
                 <input type="checkbox" id="mobile-menu" role="button">
                 <ul id="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About The Artist</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact The Artist</a></li>
                     <li><a href="#">Galleries</a></li>
                     <li><a href="#">Works</a></li>
                     <li><a href="#">Newsletter</a></li>
                     <li><a href="#">Blog</a></li>
+                    <li><a href="#">Schedule of Shows</a></li>
+                    <li><a href="#">Contact The Artist</a></li>
                 </ul>
             </nav>
         </div>' ?>
@@ -33,19 +36,20 @@ $header = '
 <?php $content_before =
         '<div class="padding"></div>
         <div class="row">
-            <section class="large-9 medium-9 columns">
-                <div>'?>
+            <section class="large-9 medium-9 columns">'?>
 
 <?php $content_after =
-                '</div>
+                '
             </section>
             <aside class="sidebar large-3 medium-3 columns">
                     <div>
                         <p>This is the sidebar.</p>
                     </div>
             </aside>
-        </div>
-        <footer>
+        </div>'?>
+
+<?php $footer =
+        '<footer>
             <div class="row">
                 <div class="large-12 columns">
                     <p>Artist Websites by <a href="http://faso.com">FineArtStudioOnline</a></p>
