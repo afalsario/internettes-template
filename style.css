@@ -73,6 +73,15 @@ a:hover {
   height: 80px;
 }
 
+.fullwidth {
+   min-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+   position:relative;
+   z-index:9999; 
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -105,6 +114,7 @@ img {
   display: table; }
 .clearfix:after {
   clear: both; }
+
 
 .hide {
   display: none; }
@@ -1175,6 +1185,10 @@ a.logo {
 
 /*********************************Nav Menu*********************************/
 
+nav {
+  margin-bottom: 20px;
+}
+
 nav li {
     list-style: none;
     display: inline;
@@ -1239,8 +1253,34 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 
+/*********************************Feature*********************************/
 
+.featured-image {
+  max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+}
 
+/*********************************CTA*********************************/
+
+.cta {
+  width: 100%;
+  background-color: #808080;
+  height: 200px;
+}
+
+/*********************************Recent Works*********************************/
+
+.recent-work h1{
+  text-align: center;
+}
+
+.recent-work img {
+  max-width:300px;
+  max-height:auto;
+}
 
 /*********************************Sidebar*********************************/
 
@@ -1258,6 +1298,8 @@ input[type=checkbox]:checked ~ #menu{
 footer {
   max-height: 100%;
   background-color: #808080;
+  width: 100%;
+  position: absolute;
 }
 
 footer p {
