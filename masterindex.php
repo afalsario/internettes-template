@@ -15,20 +15,17 @@ $header = '
             </header>'; ?>
 <?php $nav =
         '<div class="row">
-            <nav class="large-8 right columns">
+            <nav class="large-7 right columns">
                 <label for="mobile-menu" class="mobile-menu">Menu</label>
                 <input type="checkbox" id="mobile-menu" role="button">
                 <ul id="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About The Artist</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact The Artist</a></li>
                     <li><a href="#">Galleries</a></li>
                     <li><a href="#">Works</a></li>
-                    <li><a href="#">Newsletter</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Schedule of Shows</a></li>
-                    <li><a href="#">Contact The Artist</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>' ?>

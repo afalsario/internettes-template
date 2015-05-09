@@ -24,18 +24,35 @@ echo $header . $nav . $content_before;
 
 <?php echo $content_after; ?>
 
-    <div class="cta"></div>
+    <div class="cta">
+        <div class="row">
+            <h1 class="small-12 columns">Join My Mailing List</h1>
+            <form>
+                <input type="text" placeholder="Email Address">
+                <input type="submit" class="button" value="Submit">
+            </form>
+        </div>
+    </div>
+
 
     <div class="row recent-work">
-        <h1 class="small-12 large-centered column text-center">Recent Works</h1>
-        <div class="recent-work large-4 medium-3 small-12 columns">
-            <img src="images/birdflower.png">
+        <h1 class="small-12 large-centered columns">Recent Works</h1>
+        <div class="large-4 medium-4 columns">
+            <section class="box feature">
+                <a href="#" class="image featured"><img src="images/birdflower.png" alt="" /></a>
+            </section>
         </div>
-        <div class="recent-work large-4 medium-3 small-12 columns">
-            <img src="images/darksunflower.png">
+        <div class="large-4 medium-4 columns">
+            <!-- Box -->
+            <section class="box feature">
+                <a href="#" class="image featured"><img src="images/darksunflower.png" alt="" /></a>
+            </section>
         </div>
-        <div class="recent-work large-4 medium-3 small-12 columns">
-            <img src="images/humbirdparty.png">
+        <div class="large-4 medium-4 columns">
+            <!-- Box -->
+            <section class="box feature last">
+                <a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
+            </section>
         </div>
     </div>
 
