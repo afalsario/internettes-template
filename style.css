@@ -63,6 +63,10 @@ body {
   padding: 0;
   position: relative; }
 
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
 a:hover {
   cursor: pointer;
   color: #000;
@@ -1166,13 +1170,20 @@ select {
 /*********************************Header*********************************/
 
 .topbar {
-    height: 30px;
+    height: 40px;
     width:100%;
     background-color: #E56038;
 }
 
-h1 {
-    font-size: 44px;
+.fa {
+  line-height: 30px;
+  font-size: 40px;
+  padding: 5px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #9CBFCD;
 }
 
 a.logo {
@@ -1181,6 +1192,9 @@ a.logo {
   color: #E56038;
 }
 
+a.logo h1 {
+    font-size: 44px;
+}
 
 
 /*********************************Nav Menu*********************************/
@@ -1285,7 +1299,6 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 .cta h1 {
-  text-align: center;
   color: #FFF;
 }
 
@@ -1312,7 +1325,7 @@ input {
   text-shadow: none;
   cursor: pointer;
   box-shadow: none;
-  background-color: #4A463B;
+  background-color: #9CBFCD;
   color: #fff;
 }
 
@@ -1323,12 +1336,8 @@ input {
 
 /*********************************Recent Works*********************************/
 
-.recent-work h1{
-  text-align: center;
-}
-
 .recent-work {
-  max-width: 700px;
+  max-width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1336,31 +1345,49 @@ input {
 }
 
 .recent-work img{
-  margin-bottom: 15px;
   border: 3px solid #E56038;
   padding: 0;
   border-radius: 10px;
+}
+
+.recent-work img:hover {
+    border: 3px solid #9cbfcd;
 }
 
 /*********************************Sidebar*********************************/
 
 .sidebar {
     border: 3px solid #E56038;
-    height:auto;
     border-radius: 10px;
-    padding: 10px;
     margin-bottom: 20px;
+    position: relative;
+    max-width: 100%;
+}
+
+.sidebar h4 {
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .sidebar p {
-  color: #000;
+  text-indent: 20px;
+  margin-top: 0;
+}
+
+.sidebar a {
+  color: #E56038;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #9cbfcd;
 }
 
 /*********************************Footer*********************************/
 
 footer {
   max-height: 100%;
-  background-color: #333333;
+  background-color: #9CBFCD;
   width: 100%;
   position: absolute;
 }
