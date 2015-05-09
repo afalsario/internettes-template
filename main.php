@@ -38,7 +38,7 @@ echo $header . $nav . $content_before;
         <h1 class="small-12 large-centered columns">Recent Works</h1>
         <div class="large-4 medium-4 columns">
             <section class="box feature">
-                <a href="#" class="image featured overlay"><img src="images/birdflower.png" alt="" /></a>
+                <a href="#" class="image featured"><img src="images/birdflower.png" alt="" /></a>
                 <h3>Image Title</h3>
             </section>
         </div>
