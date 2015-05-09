@@ -52,10 +52,15 @@ body {
   width:100%; }
 
 body {
+<<<<<<< HEAD
   background: #ebe8de;
   color: #808080;
+=======
+  background: #EBE8DE;
+  color: #4A463B;
+>>>>>>> master
   cursor: auto;
-  font-family: "Arial Narrow", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1168,7 +1173,11 @@ select {
 .topbar {
     height: 30px;
     width:100%;
+<<<<<<< HEAD
     background-color: #e56038;
+=======
+    background-color: #E56038;
+>>>>>>> master
 }
 
 h1 {
@@ -1176,9 +1185,15 @@ h1 {
 }
 
 a.logo {
+<<<<<<< HEAD
   font-family: 'Baumans', cursive;
   text-decoration: none;
   color: #e56038;
+=======
+  font-family: 'Open Sans', sans-serif;;
+  text-decoration: none;
+  color: #E56038;
+>>>>>>> master
 }
 
 
@@ -1186,14 +1201,14 @@ a.logo {
 /*********************************Nav Menu*********************************/
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 nav li {
     list-style: none;
     display: inline;
     padding-right: 20px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -1217,8 +1232,14 @@ li a {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  color: #808080;
+  color: #4A463B;
   text-decoration: none;
+}
+
+li a:hover {
+  color: #E56038;
+  border-bottom: 3px solid #E56038;
+  padding-bottom: 5px;
 }
 
 
@@ -1260,15 +1281,59 @@ input[type=checkbox]:checked ~ #menu{
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   display: inherit;
+}
+
+.featured-image img{
+  border: 3px solid #E56038;
+  padding: 0;
+  border-radius: 10px;
 }
 
 /*********************************CTA*********************************/
 
 .cta {
   width: 100%;
-  background-color: #808080;
-  height: 200px;
+  background-color: #E56038;
+  min-height: 200px;
+}
+
+.cta h1 {
+  text-align: center;
+  color: #FFF;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  width: 250px;
+  background: #EBE8DE;
+  border-radius: 5px;
+}
+
+.button {
+  width: auto;
+  padding: 5px 18px;
+  line-height: 26px;
+  text-shadow: none;
+  cursor: pointer;
+  box-shadow: none;
+  background-color: #4A463B;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #ebe8de;
+  color: #4A463B;
 }
 
 /*********************************Recent Works*********************************/
@@ -1277,16 +1342,29 @@ input[type=checkbox]:checked ~ #menu{
   text-align: center;
 }
 
-.recent-work img {
-  max-width:300px;
-  max-height:auto;
+.recent-work {
+  max-width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+}
+
+.recent-work img{
+  margin-bottom: 15px;
+  border: 3px solid #E56038;
+  padding: 0;
+  border-radius: 10px;
 }
 
 /*********************************Sidebar*********************************/
 
 .sidebar {
-    background-color: grey;
+    border: 3px solid #E56038;
     height:auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .sidebar p {
@@ -1299,18 +1377,20 @@ footer {
   max-height: 100%;
   background-color: #e56038;
   background-color: #808080;
+  background-color: #333333;
   width: 100%;
   position: absolute;
 }
 
 footer p {
   margin: 0;
-  color:#000;
+  color:#ebe8de;
   line-height: 40px;
 }
 
 footer a{
   text-decoration: none;
+  color: #E56038;
 }
 
 /*********************************Custom CSS*********************************/
@@ -1340,7 +1420,6 @@ img.collect_image {
   /*Create vertical spacing*/
   li {
     margin-bottom: 1px;
-    background-color: #000;
   }
   /*Make all menu links full width*/
   ul li, li a {
@@ -1349,7 +1428,7 @@ img.collect_image {
   }
 
   nav li:hover{
-    background-color: lightgrey;
+    text-decoration: none;
   }
 
   nav li {
@@ -1359,6 +1438,9 @@ img.collect_image {
   /*Display 'show menu' link*/
   .mobile-menu {
     display:block;
+    color: #E56038;
+    border-bottom: 3px solid #E56038;
+    padding-bottom: 5px;
   }
 }
 
