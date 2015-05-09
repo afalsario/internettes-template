@@ -5,11 +5,25 @@ $header = '
     <head>
         <meta charset="UTF-8">
         <title>Internettes Template</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <div class="topbar"></div>
+        <div class="topbar">
+            <div class="row">
+                <div class="right">
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-tumblr-square"></i>
+                <i class="fa fa-twitter-square"></i>
+                <i class="fa fa-pinterest-square"></i>
+                <i class="fa fa-google-plus-square"></i>
+                <i class="fa fa-linkedin-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-rss"></i>
+                </div>
+            </div>
+        </div>
             <header class="row">
                 <a href="main.php" class="logo"><h1 class="large-6 columns">Artist Name</h1></a>
             </header>'; ?>
@@ -33,16 +47,35 @@ $header = '
 <?php $content_before =
         '<div class="padding"></div>
         <div class="row">
-            <section class="large-9 medium-9 columns">'?>
+            <div class="large-12 columns">
+                <div class="sidebar right large-3 medium-3 columns">
+                    <h3>Upcoming Events</h3>
+                    <div>
+                        <h4>4.25.15</h4>
+                        <a href="#"><p>Art Show @ The Pearl</p></a></a>
+                        <h4>5.25.15</h4>
+                        <a href="#"><p>Art Show @ The Pearl</p></a>
+                        <h4>6.25.15</h4>
+                        <a href="#"><p>Art Show @ The Pearl</p></a>
+                    </div>
+                    <h3>Latest Posts</h3>
+                    <div>
+                        <h4>4.12.15</h4>
+                        <a href="#"><p>New Post</p></a>
+                        <h4>2.12.15</h4>
+                        <a href="#"><p>Painting Process</p></a>
+                        <h4>1.25.15</h4>
+                        <a href="#"><p>My Muse</p></a>
+                        <h4>12.1.14</h4>
+                        <a href="#"><p>New Gallery Shows</p></a>
+                    </div>
+                </div>
+                <section class="large-9 medium-9 columns">'?>
 
 <?php $content_after =
                 '
-            </section>
-            <aside class="sidebar large-3 medium-3 columns">
-                    <div>
-                        <p>This is the sidebar.</p>
-                    </div>
-            </aside>
+                </section>
+            </div>
         </div>'?>
 
 <?php $footer =
