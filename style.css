@@ -1327,6 +1327,7 @@ input {
   box-shadow: none;
   background-color: #9CBFCD;
   color: #fff;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -1452,6 +1453,14 @@ img.collect_image {
     border-bottom: 3px solid #E56038;
     padding-bottom: 5px;
   }
+}
+
+@media screen and (max-width : 500px){
+
+.fa {
+  font-size: 25px;
+}
+
 }
 
 /*Contact*/
