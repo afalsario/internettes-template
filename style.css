@@ -1430,6 +1430,41 @@ footer a{
   color: #FFF;
 }
 
+/*********************************Newsletter Page*********************************/
+
+form.newsletter  {
+  text-align: left;
+}
+
+.newsletter input[type=text] {
+  border: 3px solid #E56038;
+  max-width: 100%;
+  margin:5px;
+}
+
+.newsletter input[type=submit] {
+  margin: 5px;
+}
+
+.newsletter input[type=submit]:hover {
+  background-color: #FFF;
+  color: #9CBFCD;
+}
+
+.newsletter input[type=radio] {
+  width: 20px;
+}
+
+.radio {
+  display: inline-block;
+}
+
+hr {
+  background-color: #9CBFCD;
+  color:  #9CBFCD;
+  height: 3px;
+}
+
 /*********************************Custom CSS*********************************/
 
 
@@ -1494,8 +1529,11 @@ img.collect_image {
     background-color:#9CBFCD;
     width:465px;
     padding:20px;
-    margin: 50px auto;    
-    border: 6px solid #e56038;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #e56038;
     -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius:15px;
