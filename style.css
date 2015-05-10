@@ -1404,8 +1404,32 @@ footer a{
   color: #E56038;
 }
 
-/*********************************Custom CSS*********************************/
+/*********************************About Page*********************************/
 
+.about h5{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.featured-image input[type=text] {
+  border: 3px solid #E56038;
+  max-width: 100%;
+}
+
+.about-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-icons .fa {
+  color: #9CBFCD;
+}
+
+.about-icons .fa:hover {
+  color: #FFF;
+}
+
+/*********************************Custom CSS*********************************/
 
 
 div.desc {
