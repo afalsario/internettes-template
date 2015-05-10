@@ -27,7 +27,7 @@ echo $header . $nav . $content_before;
 	</div> 
 <!-- End of Row -->
 
-	<div class="row">
+	<div class="row recent-work">
 		<div class="large-6 columns">
 			<a target="_blank" href="humbirdparty.png">
 				<img src="images/humbirdparty.png" alt="Party" class="collect_image">
@@ -35,11 +35,12 @@ echo $header . $nav . $content_before;
 			<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.
+			consequat. 
+			<div class="center_button">
+				<input type="submit" class="button" value="Submit">
+			</div>
 		</div>
-		<div class="center_button">
-			<input type="submit" class="button" value="Submit">
-		</div>
+
 	</div>
 	<div class="large-6 columns">
 			<a target="_blank" href="redflowers.png">
