@@ -1529,8 +1529,11 @@ img.collect_image {
     background-color:#9CBFCD;
     width:465px;
     padding:20px;
-    margin: 50px auto;    
-    border: 6px solid #e56038;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #e56038;
     -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius:15px;
