@@ -1387,7 +1387,7 @@ input {
 /*********************************Sidebar*********************************/
 
 .sidebar {
-    border: 3px solid #E56038;
+    border: 3px solid #9cbfcd;
     border-radius: 10px;
     margin-bottom: 20px;
     position: relative;
@@ -1445,13 +1445,18 @@ footer a{
   max-width: 100%;
 }
 
+.featured-image input[type=submit]:hover {
+  background-color: #FFF;
+  color: #9CBFCD;
+}
+
 .about-icons {
   margin-top: 20px;
   text-align: center;
 }
 
 .about-icons .fa {
-  color: #9CBFCD;
+  color: #E56038;
 }
 
 .about-icons .fa:hover {
@@ -1492,6 +1497,7 @@ hr {
   color:  #9CBFCD;
   height: 3px;
   width: 90%;
+  margin-top: -1px;
 }
 
 /*********************************Custom CSS*********************************/
