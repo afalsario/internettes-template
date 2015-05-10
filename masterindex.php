@@ -25,7 +25,7 @@ $header = '
             </div>
         </div>
             <header class="row">
-                <a href="main.php" class="logo"><h1 class="large-6 columns">Artist Name</h1></a>
+                <a href="main.php" class="logo"><h1 class="large-6 columns">Amanda\'s Fine Art</h1></a>
             </header>'; ?>
 <?php $nav =
         '<div class="row">
