@@ -50,5 +50,5 @@ echo $header . $nav . $content_before;
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <?php echo $content_after; ?>
-
+<br>
 <?php echo $footer; ?>

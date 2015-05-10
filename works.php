@@ -30,4 +30,5 @@ echo $header . $nav . $content_before;
 
 
 <?php echo $content_after; ?>
+<br>
 <?php echo $footer; ?>

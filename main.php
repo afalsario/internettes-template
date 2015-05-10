@@ -34,7 +34,7 @@ echo $header . $nav . $content_before;
         </div>
     </div>
 
-    <div class="row recent-work">
+    <!-- <div class="row recent-work">
         <h1 class="small-12 large-centered columns">Recent Works</h1>
         <div class="large-4 medium-4 columns">
             <section class="box feature">
@@ -42,21 +42,21 @@ echo $header . $nav . $content_before;
                 <h3>Image Title</h3>
             </section>
         </div>
-        <div class="large-4 medium-4 columns">
+        <div class="large-4 medium-4 columns"> -->
             <!-- Box -->
-            <section class="box feature">
+            <!-- <section class="box feature">
                 <a href="#" class="image featured"><img src="images/darksunflower.png" alt="" /></a>
                 <h3>Image Title</h3>
             </section>
         </div>
-        <div class="large-4 medium-4 columns">
+        <div class="large-4 medium-4 columns"> -->
             <!-- Box -->
-            <section class="box feature last">
+            <!-- <section class="box feature last">
                 <a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
                 <h3>Image Title</h3>
             </section>
         </div>
-    </div>
+    </div> -->
 
 <?php echo $footer; ?>
 
