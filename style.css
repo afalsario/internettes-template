@@ -1176,6 +1176,34 @@ select {
     background-color: #e56038;
 }
 
+.topbar li a{
+  line-height: 40px;
+  padding: 5px;
+  color: #FFF;
+}
+
+.topbar-menu {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  font-size: 24px;
+}
+
+.icons {
+  text-align: right;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #top-menu{
+    display: block;
+}
+
 .fa {
   line-height: 30px;
   font-size: 40px;
@@ -1183,8 +1211,8 @@ select {
   color: #FFF;
 }
 
-.fa:hover {
-  color: #9CBFCD;
+.fa:hover, .topbar li a:hover {
+  color:  #333333;
 }
 
 a.logo {
@@ -1286,7 +1314,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 .featured-image img{
-  border: 3px solid #9cbfcd;
+  border: 3px solid  #333333;
   padding: 0;
   border-radius: 10px;
 }
@@ -1326,7 +1354,7 @@ input {
   text-shadow: none;
   cursor: pointer;
   box-shadow: none;
-  background-color: #9CBFCD;
+  background-color:  #333333;
   color: #fff;
   margin-top: 10px;
 }
@@ -1347,7 +1375,7 @@ input {
 }
 
 .recent-work img{
-  border: 3px solid #9cbfcd;
+  border: 3px solid  #333333;
   padding: 0;
   border-radius: 10px;
 }
@@ -1359,7 +1387,7 @@ input {
 /*********************************Sidebar*********************************/
 
 .sidebar {
-    border: 3px solid #E56038;
+    border: 3px solid  #333333;
     border-radius: 10px;
     margin-bottom: 20px;
     position: relative;
@@ -1382,14 +1410,14 @@ input {
 }
 
 .sidebar a:hover {
-  color: #9cbfcd;
+  color:  #333333;
 }
 
 /*********************************Footer*********************************/
 
 footer {
   max-height: 100%;
-  background-color:#9CBFCD;
+  background-color: #333333;
   width: 100%;
   position: absolute;
 }
@@ -1417,13 +1445,18 @@ footer a{
   max-width: 100%;
 }
 
+.featured-image input[type=submit]:hover {
+  background-color: #FFF;
+  color:  #333333;
+}
+
 .about-icons {
   margin-top: 20px;
   text-align: center;
 }
 
 .about-icons .fa {
-  color: #9CBFCD;
+  color: #E56038;
 }
 
 .about-icons .fa:hover {
@@ -1448,7 +1481,7 @@ form.newsletter  {
 
 .newsletter input[type=submit]:hover {
   background-color: #FFF;
-  color: #9CBFCD;
+  color:  #333333;
 }
 
 .newsletter input[type=radio] {
@@ -1460,9 +1493,11 @@ form.newsletter  {
 }
 
 hr {
-  background-color: #9CBFCD;
-  color:  #9CBFCD;
+  background-color:  #333333;
+  color:   #333333;
   height: 3px;
+  width: 90%;
+  margin-top: -1px;
 }
 
 /*********************************Custom CSS*********************************/
@@ -1498,8 +1533,10 @@ img.collect_image {
     text-align: center;
   }
 
-  nav li:hover{
+  nav li a:hover{
     text-decoration: none;
+    border-bottom: none;
+    color:  #333333;
   }
 
   nav li {
@@ -1509,16 +1546,47 @@ img.collect_image {
   /*Display 'show menu' link*/
   .mobile-menu {
     display:block;
-    color: #E56038;
+    color:#E56038;
     border-bottom: 3px solid #E56038;
     padding-bottom: 5px;
+  }
+
+  .mobile-menu:hover {
+    color: #333333;
+  }
+
+  /*Display 'show menu' link*/
+  .topbar-menu {
+    display:inline-block;
+  }
+
+  label.topbar-menu:hover {
+    color:  #333333;
+  }
+
+  label.topbar-menu {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    color: #FFF;
+  }
+
+  .topbar li a{
+    line-height: 40px;
+    padding: 5px;
+    color: #4A463B;
+  }
+
+  .topbar li a:hover {
+    border-bottom: none;
+    color:  #333333;
   }
 }
 
 @media screen and (max-width : 500px){
 
 .fa {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 }
@@ -1526,7 +1594,7 @@ img.collect_image {
 /*Contact*/
 
 #contact-form {
-    background-color:#9CBFCD;
+    background-color: #333333;
     width:465px;
     padding:20px;
     margin-top: 0;
@@ -1713,7 +1781,7 @@ body {
   line-height: 0;
   @include column-gap(20);
   @include column-count(5);
-    
+
   img {
     display: inline-block;
     margin-bottom: 15px;
