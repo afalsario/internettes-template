@@ -1176,6 +1176,34 @@ select {
     background-color: #e56038;
 }
 
+.topbar li a{
+  line-height: 40px;
+  padding: 5px;
+  color: #FFF;
+}
+
+.topbar-menu {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  font-size: 24px;
+}
+
+.icons {
+  text-align: right;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #top-menu{
+    display: block;
+}
+
 .fa {
   line-height: 30px;
   font-size: 40px;
@@ -1183,7 +1211,7 @@ select {
   color: #FFF;
 }
 
-.fa:hover {
+.fa:hover, .topbar li a:hover {
   color: #9CBFCD;
 }
 
@@ -1463,6 +1491,7 @@ hr {
   background-color: #9CBFCD;
   color:  #9CBFCD;
   height: 3px;
+  width: 90%;
 }
 
 /*********************************Custom CSS*********************************/
@@ -1513,12 +1542,43 @@ img.collect_image {
     border-bottom: 3px solid #E56038;
     padding-bottom: 5px;
   }
+
+  .mobile-menu:hover {
+    color:#9CBFCD
+  }
+
+  /*Display 'show menu' link*/
+  .topbar-menu {
+    display:inline-block;
+  }
+
+  label.topbar-menu:hover {
+    color: #9CBFCD;
+  }
+
+  label.topbar-menu {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    color: #FFF;
+  }
+
+  .topbar li a{
+    line-height: 40px;
+    padding: 5px;
+    color: #F4811F;
+  }
+
+  .topbar li a:hover {
+    border-bottom: none;
+    color: #9cbfcd;
+  }
 }
 
 @media screen and (max-width : 500px){
 
 .fa {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 }
@@ -1713,7 +1773,7 @@ body {
   line-height: 0;
   @include column-gap(20);
   @include column-count(5);
-    
+
   img {
     display: inline-block;
     margin-bottom: 15px;

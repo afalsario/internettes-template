@@ -11,9 +11,18 @@ $header = '
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <div class="topbar">
-            <div class="row">
-                <div class="right">
+    <div class="topbar">
+        <div class="row">
+            <nav class="large-6 medium-1 small-1 left columns">
+                <label for="topbar-menu" class="topbar-menu">Menu</label>
+                <input type="checkbox" id="topbar-menu" role="button">
+                <ul id="top-menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="en.php">Newsletter</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="icons large-6 medium-10 small-10 columns">
                 <i class="fa fa-facebook-square"></i>
                 <i class="fa fa-tumblr-square"></i>
                 <i class="fa fa-twitter-square"></i>
@@ -22,15 +31,15 @@ $header = '
                 <i class="fa fa-linkedin-square"></i>
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-rss"></i>
-                </div>
             </div>
         </div>
+    </div>
             <header class="row">
                 <a href="main.php" class="logo"><h1 class="large-6 columns">Amanda\'s Fine Art</h1></a>
             </header>'; ?>
 <?php $nav =
         '<div class="row">
-            <nav class="large-8 right columns">
+            <nav class="large-6 right columns">
                 <label for="mobile-menu" class="mobile-menu">Menu</label>
                 <input type="checkbox" id="mobile-menu" role="button">
                 <ul id="menu">
@@ -39,10 +48,6 @@ $header = '
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Galleries</a></li>
                     <li><a href="works.php">Works</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="en.php">Newsletter</a></li>
-                    <li><a href="#">Contact</a></li>
-
                 </ul>
             </nav>
         </div>' ?>
@@ -82,7 +87,33 @@ $header = '
         </div>'?>
 
 <?php $footer =
-        '<footer>
+        '<hr>
+        <div class="row recent-work">
+            <h1 class="small-12 large-centered columns">Recent Works</h1>
+            <div class="large-4 medium-4 columns">
+                <section class="box feature">
+                    <a href="#" class="image featured"><img src="images/birdflower.png" alt="" /></a>
+                    <h3>Image Title</h3>
+                </section>
+            </div>
+            <div class="large-4 medium-4 columns">
+                <!-- Box -->
+                <section class="box feature">
+                    <a href="#" class="image featured"><img src="images/darksunflower.png" alt="" /></a>
+                    <h3>Image Title</h3>
+                </section>
+            </div>
+            <div class="large-4 medium-4 columns">
+                <!-- Box -->
+                <section class="box feature last">
+                    <a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
+                    <h3>Image Title</h3>
+                </section>
+            </div>
+        </div>
+
+
+        <footer>
             <div class="row">
                 <div class="large-12 columns">
                     <p>Artist Websites by <a href="http://faso.com">FineArtStudioOnline</a></p>
