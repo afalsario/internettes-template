@@ -1286,7 +1286,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 .featured-image img{
-  border: 3px solid #E56038;
+  border: 3px solid #9cbfcd;
   padding: 0;
   border-radius: 10px;
 }
@@ -1347,13 +1347,13 @@ input {
 }
 
 .recent-work img{
-  border: 3px solid #E56038;
+  border: 3px solid #9cbfcd;
   padding: 0;
   border-radius: 10px;
 }
 
 .recent-work img:hover {
-    border: 3px solid #9cbfcd;
+    border: 3px solid #E56038;
 }
 
 /*********************************Sidebar*********************************/
