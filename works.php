@@ -2,32 +2,24 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
-
-<div class="row medium-uncollapse large-collapse">
-    <div class="small-6 columns">
-        <img src="images/redflowers.png">
-    </div>
-    <div class="small-6 columns">
-    	<img src="images/redflowers.png">
-    </div>
+<div class="grid">
+   <img clsrc="http://placehold.it/350x230" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x230" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
+   <img src="http://placehold.it/350x250" />
+   <img src="http://placehold.it/350x350" />
+   <img src="http://placehold.it/350x150" />
 </div>
-<div class="row medium-uncollapse large-collapse">
-    <div class="small-6 columns">
-        <img src="images/redflowers.png">
-    </div>
-    <div class="small-6 columns">
-    	<img src="images/redflowers.png">
-    </div>
-</div>
-<div class="row medium-uncollapse large-collapse">
-    <div class="small-6 columns">
-        <img src="images/redflowers.png">
-    </div>
-    <div class="small-6 columns">
-    	<img src="images/redflowers.png">
-    </div>
-</div>
-
 
 <?php echo $content_after; ?>
 <br>

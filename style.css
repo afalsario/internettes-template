@@ -131,6 +131,7 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 */
+
 img {
   display: inline-block;
   vertical-align: middle; }
@@ -1767,22 +1768,19 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 input.placeholder-text, textarea.placeholder-text  { 
     color:#CCC;
     font-style:italic;
-
+}
 
 /* Gallery */
 
-body {
-  background: #000;
-}
-
 .grid {
   width: 90%;
-  max-width: 1400px;
+  max-width: 800px;
   margin: 20px auto;
-  line-height: 0;
+  line-height: 20px;
+  float: left;
   @include column-gap(20);
   @include column-count(5);
-
+   
   img {
     display: inline-block;
     margin-bottom: 15px;
@@ -1802,6 +1800,12 @@ body {
     }
   }
   @media (max-width: 800px) {
+    .grid {
+      @include column-count(2);
+    }
+  }
+
+  @media (max-width: 400px) {
     .grid {
       @include column-count(2);
     }
