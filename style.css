@@ -1768,7 +1768,8 @@ input.placeholder-text, textarea.placeholder-text  {
     color:#CCC;
     font-style:italic;
 
-/** GAllery **/
+
+/* Gallery */
 
 body {
   background: #000;
@@ -1806,8 +1807,4 @@ body {
     }
   }
 
-  @media (max-width: 400px) {
-    .grid {
-      @include column-count(1);
-    }
-  }
+
