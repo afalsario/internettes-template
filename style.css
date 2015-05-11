@@ -1366,7 +1366,11 @@ input {
 /*********************************Recent Works*********************************/
 
 .recent-work {
+<<<<<<< HEAD
+  max-width: 90%;
+=======
   max-width: 80%;
+>>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1586,7 +1590,10 @@ img.collect_image {
 
 .left-align {
   text-align: left;
+<<<<<<< HEAD
+=======
   font-size: 20px;
+>>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
   font-family: 'Baumans', cursive;
   padding-left: 50px;
   border-bottom: solid 3px;
@@ -1596,6 +1603,11 @@ img.collect_image {
 
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
 /*Responsive Styles*/
 
 @media screen and (max-width : 1024px){
@@ -1854,12 +1866,19 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
+<<<<<<< HEAD
+/* Paypal */ 
+
+.Paypal{
+  background-color: #e56038;
+  border-style: none;
+}
 /* Blog */
 
 .image-blog {
   height: 300px;
   width: 700px;
-   border: 3px solid  #333333;
+  border: 3px solid  #333333;
   padding: 0;
   border-radius: 10px;
 
@@ -1878,5 +1897,6 @@ input.placeholder-text, textarea.placeholder-text  {
   padding-bottom: 60px;
 
 }
+
 
 

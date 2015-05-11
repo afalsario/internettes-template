@@ -46,7 +46,7 @@ echo $header . $nav . $content_before;
         <div class="row recent-work">
             <div class="large-4 medium-4 columns">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="images/blueflowers.png" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/blueflowers.png" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Blue Flowers</h2>

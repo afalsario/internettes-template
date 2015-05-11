@@ -8,6 +8,7 @@ echo $header . $nav . $content_before;
             <a href="#" class="image featured"><img src="images/blueflowers.png" alt="" /></a>
         </section>
     </div>
+
 </div>
  <!--Gallery Info -->
 <div class="row">
@@ -17,6 +18,7 @@ echo $header . $nav . $content_before;
         <p>$900 USD</p>
         <p>Availability: On Hold</p>
     </div>
+
     <div class="large-6 medium-6 small-12 columns">
         <section class="box">
             <h2 class="left-align">Gallery Info</h2>
