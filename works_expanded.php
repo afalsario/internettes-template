@@ -23,7 +23,7 @@ echo $header . $nav . $content_before;
                     <div class="inner">
 				<header>
 					<h2>SunFlower</h2>
-					<p>12 X 24</p>
+					<p>12 X 20</p>
 					<p>$900 USD</p>
 				</header>
 			</div>
@@ -50,7 +50,7 @@ echo $header . $nav . $content_before;
                     <div class="inner">
 				<header>
 					<h2>Blue Flowers</h2>
-					<p>12 X 24</p>
+					<p>30 X 30</p>
 					<p>$900 USD</p>
 				</header>
 			</div>
@@ -76,8 +76,8 @@ echo $header . $nav . $content_before;
                     <div class="inner">
 				<header>
 					<h2>Garden</h2>
-					<p>12 X 24</p>
-					<p>$900 USD</p>
+					<p>20 X 10 </p>
+					<p>$1700 USD</p>
 				</header>
 			</div>
                 </section>
@@ -91,7 +91,7 @@ echo $header . $nav . $content_before;
 				<header>
 					<h2>Wild Weeds</h2>
 					<p>12 X 24</p>
-					<p>$900 USD</p>
+					<p>$500 USD</p>
 				</header>
 			</div>
                 </section>
@@ -103,8 +103,8 @@ echo $header . $nav . $content_before;
                     <div class="inner">
 				<header>
 					<h2>Red Flower</h2>
-					<p>12 X 24</p>
-					<p>$900 USD</p>
+					<p>11 X 30</p>
+					<p>$5000 USD</p>
 				</header>
 			</div>
                 </section>
@@ -116,7 +116,7 @@ echo $header . $nav . $content_before;
                     <div class="inner">
 				<header>
 					<h2>Scenic Route</h2>
-					<p>12 X 24</p>
+					<p>15 X 18</p>
 					<p>$900 USD</p>
 				</header>
 			</div>

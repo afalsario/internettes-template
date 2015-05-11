@@ -1377,8 +1377,6 @@ input {
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
-  padding:10px 18px;
-
 }
 
 .button:hover {
@@ -1386,7 +1384,15 @@ input {
   color: #4A463B;
 }
  .center_button {
-  padding-top: 20px;
+  padding-top: 10px;
+ }
+
+ .box {
+  padding-bottom: 60px;
+ }
+
+ .center {
+  text-align:center;
  }
 
 /*********************************Recent Works*********************************/
@@ -1538,7 +1544,7 @@ div.index {
   display: inline-block;
 }
 
-.index p {
+.index p, h4 {
   text-align: left;
 }
 
@@ -1558,6 +1564,23 @@ img.collect_image {
 .inner {
   text-align: center;
 }
+
+/* Works Zoom */
+
+.left-align {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Baumans', cursive;
+  padding-left: 50px;
+  border-bottom: solid 3px;
+  width: 400px;
+
+}
+
+
+
+
+
 
 
 
