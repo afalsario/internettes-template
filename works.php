@@ -2,6 +2,7 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
+
         <h1 class="small-12 large-centered columns">Nature's Beauty</h1>
             <div id="container" class="cols">
                 <div class="box">

@@ -1352,13 +1352,21 @@ input {
   color: #4A463B;
 }
  .center_button {
-  padding-top: 20px;
+  padding-top: 10px;
+ }
+
+ .box {
+  padding-bottom: 60px;
+ }
+
+ .center {
+  text-align:center;
  }
 
 /*********************************Recent Works*********************************/
 
 .recent-work {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1504,7 +1512,7 @@ div.index {
   display: inline-block;
 }
 
-.index p {
+.index p, h4 {
   text-align: left;
 }
 
@@ -1571,6 +1579,18 @@ img.collect_image {
 
 .inner {
   text-align: center;
+}
+
+/* Works Zoom */
+
+.left-align {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Baumans', cursive;
+  padding-left: 50px;
+  border-bottom: solid 3px;
+  width: 300px;
+
 }
 
 
@@ -1833,5 +1853,23 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
-/* Gallery */
+/* Blog */
 
+.image-blog {
+  height: 300px;
+  width: 700px;
+   border: 3px solid  #333333;
+  padding: 0;
+  border-radius: 10px;
+
+}
+
+.blog-align {
+   text-align: left;
+  font-size: 20px;
+  font-family: 'Baumans', cursive;
+  padding-left: 50px;
+  border-bottom: solid 3px;
+  width: 400px;
+
+}
