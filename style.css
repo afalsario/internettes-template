@@ -1873,13 +1873,12 @@ input.placeholder-text, textarea.placeholder-text  {
   background-color: #e56038;
   border-style: none;
 }
-=======
 /* Blog */
 
 .image-blog {
   height: 300px;
   width: 700px;
-   border: 3px solid  #333333;
+  border: 3px solid  #333333;
   padding: 0;
   border-radius: 10px;
 
@@ -1899,5 +1898,5 @@ input.placeholder-text, textarea.placeholder-text  {
 
 }
 
->>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
+
 
