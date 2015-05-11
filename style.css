@@ -1569,7 +1569,7 @@ img.collect_image {
 
 .left-align {
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Baumans', cursive;
   padding-left: 50px;
   border-bottom: solid 3px;
@@ -1842,5 +1842,11 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
-/* Gallery */
+/* Blog */
+
+.image-blog {
+  height: 300px;
+  width: 700px;
+
+}
 
