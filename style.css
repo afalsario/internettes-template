@@ -1398,7 +1398,7 @@ input {
 /*********************************Recent Works*********************************/
 
 .recent-work {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1576,11 +1576,6 @@ img.collect_image {
   width: 300px;
 
 }
-
-
-
-
-
 
 
 
@@ -1853,3 +1848,12 @@ input.placeholder-text, textarea.placeholder-text  {
 
 }
 
+.blog-align {
+   text-align: left;
+  font-size: 20px;
+  font-family: 'Baumans', cursive;
+  padding-left: 50px;
+  border-bottom: solid 3px;
+  width: 400px;
+
+}

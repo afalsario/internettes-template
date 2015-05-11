@@ -17,7 +17,7 @@ $header = '
                 <label for="topbar-menu" class="topbar-menu">Menu</label>
                 <input type="checkbox" id="topbar-menu" role="button">
                 <ul id="top-menu">
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="blogfront.php">Blog</a></li>
                     <li><a href="en.php">Newsletter</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
