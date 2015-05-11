@@ -87,6 +87,22 @@ a:hover {
    z-index:9999; 
 }
 
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  width: 250px;
+  background: #EBE8DE;
+  border-radius: 5px;
+}
+
+button.button:hover {
+  background-color: #FFFFFF;
+  color: #333;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -1441,7 +1457,7 @@ footer a{
 }
 
 .featured-image input[type=text] {
-  border: 3px solid #E56038;
+  border: 3px solid #333333;
   max-width: 100%;
 }
 
@@ -1498,6 +1514,23 @@ hr {
   height: 3px;
   width: 90%;
   margin-top: -1px;
+}
+
+/*********************************Galleries Page*********************************/
+
+div.index {
+  text-align: center;
+  border: 3px solid #E56038;
+  border-radius: 10px;
+  max-width: 300px;
+  min-height: 255px;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.index p {
+  text-align: left;
 }
 
 /*********************************Custom CSS*********************************/
