@@ -1560,10 +1560,7 @@ div.desc {
   border-bottom-width: 80%;
 }
 
-
-
 /*********************************Responsive Styles*********************************/
-
 
 @media screen and (max-width : 1024px){
   /*Make dropdown links appear inline*/
@@ -1840,23 +1837,50 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
+/* Paypal */ 
+
+.Paypal{
+  background-color: #e56038;
+  border-style: none;
+}
 /* Blog */
 
 .image-blog {
   height: 300px;
   width: 700px;
-   border: 3px solid  #333333;
+  border: 3px solid  #333333;
   padding: 0;
   border-radius: 10px;
 
 }
 
 .blog-align {
-   text-align: left;
+  text-align: left;
   font-size: 20px;
   font-family: 'Baumans', cursive;
   padding-left: 50px;
   border-bottom: solid 3px;
   width: 400px;
+}
+
+.blog-padding {
+  padding-bottom: 60px;
 
 }
+ textarea {
+  width:940px;
+  border: 3px solid #E56038;
+  max-width: 100%;
+  margin:5px;
+  background-color:#EBE8DE;
+  color:  #333333;
+  border-radius: 5px;
+ }
+ .move_left {
+  padding-left: 30px;
+ }
+
+ div.background-grey {
+  background-color: #333333
+ }
+
