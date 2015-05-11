@@ -47,7 +47,7 @@ $header = '
                     <li><a href="about.php">About</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Galleries</a></li>
-                    <li><a href="works.php">Works</a></li>
+                    <li><a href="collections.php">Works</a></li>
                 </ul>
             </nav>
         </div>' ?>
