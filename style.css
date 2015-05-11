@@ -1590,10 +1590,7 @@ img.collect_image {
 
 .left-align {
   text-align: left;
-<<<<<<< HEAD
-=======
   font-size: 20px;
->>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
   font-family: 'Baumans', cursive;
   padding-left: 50px;
   border-bottom: solid 3px;
@@ -1601,13 +1598,6 @@ img.collect_image {
 
 }
 
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 5ff78fe1bb74842fdcfe0b2613f957de1e02ce63
 /*Responsive Styles*/
 
 @media screen and (max-width : 1024px){
@@ -1866,7 +1856,6 @@ input.placeholder-text, textarea.placeholder-text  {
     font-style:italic;
 }
 
-<<<<<<< HEAD
 /* Paypal */ 
 
 .Paypal{
@@ -1897,6 +1886,20 @@ input.placeholder-text, textarea.placeholder-text  {
   padding-bottom: 60px;
 
 }
+ textarea {
+  width:940px;
+  border: 3px solid #E56038;
+  max-width: 100%;
+  margin:5px;
+  background-color:#EBE8DE;
+  color:  #333333;
+  border-radius: 5px;
+ }
+ .move_left {
+  padding-left: 30px;
+ }
 
-
+ div.background-grey {
+  background-color: #333333
+ }
 

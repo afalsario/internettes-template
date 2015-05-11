@@ -28,13 +28,10 @@ echo $header . $nav . $content_before;
             Anchorage, Alaska 99501
         </p>
         <a href="#"><button class="button center">More Details</button></a>
-
-    </div>
-        
+    </div> 
         </section>
 
 </div>
-
 
 
 <?php echo $content_after; ?>
