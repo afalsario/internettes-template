@@ -44,6 +44,8 @@ echo $header . $nav . $content_before;
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
+		<a href="blog.php"><button class="button">Read More</button></a>
+		<div class="blog-padding"></div>
 
 </div>
   	
