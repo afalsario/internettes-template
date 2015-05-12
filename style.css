@@ -1864,10 +1864,6 @@ input.placeholder-text, textarea.placeholder-text  {
   width: 400px;
 }
 
-.blog-padding {
-  padding-bottom: 60px;
-
-}
  textarea {
   width:940px;
   border: 3px solid #E56038;
@@ -1877,6 +1873,8 @@ input.placeholder-text, textarea.placeholder-text  {
   color:  #333333;
   border-radius: 5px;
  }
+
+
  .move_left {
   padding-left: 30px;
  }
