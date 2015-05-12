@@ -4,7 +4,7 @@ echo $header . $nav . $content_before;
 ?>
 
 <div class="row">
-  <div class="large-12 columns medium-12 columns small-12 columns"><h2 class="blog-align">Inspiration Behind Pink Tulips</h2></div>
+  <div class="large-12 columns medium-12 columns small-12 columns"><h2 class="left-align">Inspiration Behind Pink Tulips</h2></div>
 </div>
 
   	<div class="medium-10 columns"><img class="image-blog" src="images/pinktulips.jpg" alt=""/></div>
