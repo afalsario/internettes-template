@@ -30,6 +30,7 @@ echo $header . $nav . $content_before;
 		</div>
 	</div>
 </div>
+<div class="padding"></div>
 
 <?php echo $content_after; ?>
 <?php echo $footer; ?>
