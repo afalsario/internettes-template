@@ -4,7 +4,6 @@ echo $header . $nav . $content_before;
 ?>
 
 <h1>Events</h1>
-<br></br>
 <div class="events-container">
 	<div class="row">
 		<div class="large-12 small-12 columns">
