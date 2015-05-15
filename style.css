@@ -1944,5 +1944,7 @@ a.contact-button:active {
 }
 
 .events-title {
-  border: 3px solid;
+  border: 3px solid #333333;
+  background-color: #333333;
+  color: #fff;
 }
