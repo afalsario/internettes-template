@@ -2,7 +2,7 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
-		<h1>Portfolio of Works</h1>
+	<h1>Portfolio of Works</h1>
 	<div class="row recent-work">
 		<div class="large-6 medium-6 columns">
 			<a target="_blank" href="birdflower.png">

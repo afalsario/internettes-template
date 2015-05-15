@@ -1930,3 +1930,19 @@ a.contact-button:active {
 
 }
 
+/**********************Events Section**************/
+
+.events-container {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+.events-title {
+  border: 3px solid;
+}
