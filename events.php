@@ -15,6 +15,7 @@ echo $header . $nav . $content_before;
 			<a href="#"><button class="button center">More Details</button></a>
 		</div>
 	</div>
+	<div class="padding"></div>
 	<div class="row">
 		<div class="large-12 small-12 columns">
 			<h2 class="events-title">Cheesy Art</h2>
