@@ -1559,6 +1559,9 @@ div.desc {
   border-bottom: solid 3px;
   border-bottom-width: 80%;
 }
+p, h3 {
+  margin: 5px;
+}
 
 /*********************************Responsive Styles*********************************/
 
