@@ -11,7 +11,7 @@ echo $header . $nav . $content_before;
 			<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				<div class="center_button">
 
-					<a href="#"><button class="button">View Collection</button></a>
+					<a href="works_expanded.php"><button class="button">View Collection</button></a>
 
 				</div>
 			</div>
@@ -22,7 +22,7 @@ echo $header . $nav . $content_before;
 			</a>
 			<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				<div class="center_button">
-					<a href="#"><button class="button">View Collection</button></a>
+					<a href="works_expanded.php"><button class="button">View Collection</button></a>
 				</div>
 			</div>
 		</div>
@@ -39,7 +39,7 @@ echo $header . $nav . $content_before;
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. 
 			<div class="center_button">
-				<a href="#"><button class="button">View Collection</button></a>
+					<a href="works_expanded.php"><button class="button">View Collection</button></a>
 			</div>
 		</div>
 
@@ -53,7 +53,7 @@ echo $header . $nav . $content_before;
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.
 			<div class="center_button">
-				<a href="#"><button class="button">View Collection</button></a>
+					<a href="works_expanded.php"><button class="button">View Collection</button></a>
 			</div>
 		</div>
 	</div>

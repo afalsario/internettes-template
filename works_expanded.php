@@ -6,7 +6,7 @@ echo $header . $nav . $content_before;
             <h1 class="small-12 large-centered columns">Nature's Beauty</h1>
             <div class="large-4 medium-4 columns">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="images/birdflower.png" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/birdflower.png" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Resting Bird</h2>
@@ -19,7 +19,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="images/darksunflower.png" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/darksunflower.png" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>SunFlower</h2>
@@ -32,7 +32,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature last">
-                    <a href="#" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/humbirdparty.png" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Party</h2>
@@ -59,7 +59,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature">
-                   <a href="#" class="image featured"><img src="images/redflowers.png" alt="" /></a>
+                   <a href="workszoom.php" class="image featured"><img src="images/redflowers.png" alt="" /></a>
                    <div class="inner">
 				<header>
 					<h2>Red Flower</h2>
@@ -72,7 +72,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature last">
-                    <a href="#" class="image featured"><img src="images/garden.jpg" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/garden.jpg" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Garden</h2>
@@ -86,7 +86,7 @@ echo $header . $nav . $content_before;
         <div class="row recent-work">
             <div class="large-4 medium-4 columns">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="images/weeded.jpg" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/weeded.jpg" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Wild Weeds</h2>
@@ -99,7 +99,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="images/pinktulips.jpg" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/pinktulips.jpg" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Red Flower</h2>
@@ -112,7 +112,7 @@ echo $header . $nav . $content_before;
             <div class="large-4 medium-4 columns">
                 <!-- Box -->
                 <section class="box feature last">
-                    <a href="#" class="image featured"><img src="images/longroad.jpg" alt="" /></a>
+                    <a href="workszoom.php" class="image featured"><img src="images/longroad.jpg" alt="" /></a>
                     <div class="inner">
 				<header>
 					<h2>Scenic Route</h2>
