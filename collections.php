@@ -2,9 +2,10 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
-		<h1>Portfolio of Works</h1>
+	<h1>Portfolio of Works</h1>
 	<div class="row recent-work">
 		<div class="large-6 medium-6 columns">
+			<h1 class="left-align">Birds</h1>
 			<a target="_blank" href="birdflower.png">
 				<img src="images/birdflower.png" alt="Humming Bird and Flower" class="collect_image">
 			</a>
@@ -17,6 +18,7 @@ echo $header . $nav . $content_before;
 			</div>
 		</div>
 		<div class="large-6 medium-6 columns">
+			<h1 class="left-align">Sunflower</h1>
 			<a target="_blank" href="darksunflower.png">
 				<img src="images/darksunflower.png" alt="Klematis" class="collect_image">
 			</a>
@@ -31,6 +33,7 @@ echo $header . $nav . $content_before;
 
 	<div class="row recent-work">
 		<div class="large-6 medium-6 columns">
+			<h1 class="left-align">Crazy Color</h1>
 			<a target="_blank" href="humbirdparty.png">
 				<img src="images/humbirdparty.png" alt="Party" class="collect_image">
 			</a>
@@ -45,6 +48,7 @@ echo $header . $nav . $content_before;
 
 	</div>
 	<div class="large-6 medium-6 columns">
+		<h1 class="left-align">Bouquet</h1>
 			<a target="_blank" href="redflowers.png">
 				<img src="images/redflowers.png" alt="Red Flowers" class="collect_image">
 			</a>

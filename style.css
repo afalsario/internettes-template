@@ -1559,6 +1559,9 @@ div.desc {
   border-bottom: solid 3px;
   border-bottom-width: 80%;
 }
+p, h3 {
+  margin: 5px;
+}
 
 /*********************************Responsive Styles*********************************/
 
@@ -1898,4 +1901,53 @@ input.placeholder-text, textarea.placeholder-text  {
   text-align: left;
 }
 
+.padding {
+  padding-bottom: 60px;
+}
 
+a.contact-button {
+   background-color: #333333;
+   border-radius: 4px;
+   -webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+   box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+   color: #fff;
+   font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
+   padding: 7px 20px;
+   text-shadow: 0 -1px 1px #EBF2F4;
+   width: 140px;
+   display:block;
+   text-align: center;
+   text-decoration:none; }
+
+a.contact-button:hover {
+   background-color: #fff;
+   cursor: pointer; }
+
+a.contact-button:active {
+   border-top: 1px solid #333333;
+   border-right: 1px solid #333333;
+   border-bottom: 1px solid #333333;
+   border-left: 1px solid #333333;
+   -webkit-box-shadow: inset 0 0 5px 2px #EBF2F4, 0 1px 0 #EBF2F4;
+   box-shadow: inset 0 0 5px 2px #EBF2F4, 0 1px 0 #EBF2F4; }
+
+}
+
+/**********************Events Section**************/
+
+.events-container {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+.events-title {
+  border: 3px solid #E56038;
+  background-color: #E56038;
+  color: #fff;
+}
