@@ -1990,3 +1990,53 @@ a.contact-button:active {
   background-color: #E56038;
   color: #fff;
 }
+
+/*********************Pagination*******************/
+
+
+ul.pagination {
+  display: block;
+  margin-left: -0.3125rem;
+  min-height: 1.5rem; }
+  ul.pagination li {
+    color: #222222;
+    font-size: 0.875rem;
+    height: 1.5rem;
+    margin-left: 0.3125rem; }
+    ul.pagination li a, ul.pagination li button {
+      border-radius: 3px;
+      transition: background-color 300ms ease-out;
+      background: none;
+      color: #999999;
+      display: block;
+      font-size: 1em;
+      font-weight: normal;
+      line-height: inherit;
+      padding: 0.0625rem 0.625rem 0.0625rem; }
+    ul.pagination li:hover a,
+    ul.pagination li a:focus, ul.pagination li:hover button,
+    ul.pagination li button:focus {
+      background: #e56038; }
+    ul.pagination li.unavailable a, ul.pagination li.unavailable button {
+      cursor: default;
+      color: #999999; }
+    ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
+      background: transparent; }
+    ul.pagination li.current a, ul.pagination li.current button {
+      background: #E56038;
+      color: #FFFFFF;
+      cursor: default;
+      font-weight: bold; }
+      ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
+        background: #E56038; }
+  ul.pagination li {
+    display: block;
+    float: left; }
+
+/* Pagination centred wrapper */
+.pagination-centered {
+  text-align: center; }
+  .pagination-centered ul.pagination li {
+    display: inline-block;
+    float: none; }
+
