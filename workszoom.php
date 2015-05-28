@@ -2,6 +2,25 @@
 <?php
 echo $header . $nav . $content_before;
 ?>
+
+<div class="row recent-work">
+            <div class="large-12 medium-12 columns">
+                <ul class="pagination" role="menubar" aria-label="Pagination">
+  <li class="arrow unavailable" aria-disabled="true"><a href="">&laquo; Previous</a></li>
+  <li class="current"><a href="">1</a></li>
+  <li><a href="">2</a></li>
+  <li><a href="">3</a></li>
+  <li><a href="">4</a></li>
+  <li class="unavailable" aria-disabled="true"><a href="">&hellip;</a></li>
+  <li><a href="">12</a></li>
+  <li><a href="">13</a></li>
+  <li class="arrow"><a href="">Next &raquo;</a></li>
+</ul>
+            <br></br>
+            <br></br>
+
+            </div>
+        </div>
 <div class="row">
     <div class=" featured-image large-12 med-12 small-12 columns">
         <section>
@@ -31,6 +50,7 @@ echo $header . $nav . $content_before;
          </p>
         <a href="#"><button class="button center">More Details</button></a>
     </div> 
+
 </div>
 <br>
 
@@ -45,6 +65,9 @@ echo $header . $nav . $content_before;
         </div>
     </div>
 </div>
+
+
+
 <?php echo $footer; ?>
 
 

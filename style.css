@@ -1595,6 +1595,7 @@ div.desc {
   border-bottom-width: 80%;
 }
 p, h3 {
+
   margin: 15px 0;
 }
 
@@ -1730,6 +1731,7 @@ p, h3 {
     -webkit-border-radius:15px;
     border-radius:15px;
     position:relative;
+    color: white;
 }
  
 #contact-form h1 {
@@ -1766,8 +1768,8 @@ p, h3 {
 #contact-form select:focus, 
 #contact-form textarea:focus {
     border: 1px solid #AFCDD8;
-    background-color: #EBF2F4;
-    color:;
+    background-color: #fff;
+    color:white;
 }
  
 #contact-form textarea {
