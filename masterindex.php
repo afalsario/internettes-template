@@ -13,7 +13,7 @@ $header = '
     <body>
     <div class="topbar">
         <div class="row">
-            <nav class="large-6 medium-6 small-1 left columns">
+            <nav class="header-nav large-6 medium-6 small-1 left columns">
                 <label for="topbar-menu" class="topbar-menu">Menu</label>
                 <input type="checkbox" id="topbar-menu" role="button">
                 <ul id="top-menu">
@@ -35,11 +35,11 @@ $header = '
         </div>
     </div>
             <header class="row">
-                <a href="main.php" class="logo"><h1 class="large-6 columns">Amanda\'s Fine Art</h1></a>
+                <h1 class="logo large-12 columns"><a href="main.php" class="logo">Amanda\'s Fine Art</a></h1>
             </header>'; ?>
 <?php $nav =
         '<div class="row">
-            <nav class="large-6 right columns">
+            <nav class="main-nav">
                 <label for="mobile-menu" class="mobile-menu">Menu</label>
                 <input type="checkbox" id="mobile-menu" role="button">
                 <ul id="menu">
@@ -48,6 +48,10 @@ $header = '
                     <li><a href="events.php">Events</a></li>
                     <li><a href="collections.php">Works</a></li>
                     <li><a href="galleries.php">Galleries</a></li>
+                    <li><a href="pages.php">Pages</a></li>
+                    <li><a href="articles.php">Articles</a></li>
+                    <li><a href="workshops.php">Workshops</a></li>
+                    <li><a href="links.php">Links</a></li>
                 </ul>
             </nav>
         </div>' ?>
