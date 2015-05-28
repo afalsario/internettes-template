@@ -1571,6 +1571,11 @@ div.index {
   color: #E56038;
 }
 
+.page-content img {
+    margin: 5px auto;
+    display: block;
+}
+
 
 
 /*********************************Custom CSS*********************************/
@@ -1596,8 +1601,9 @@ div.desc {
   border-bottom-width: 80%;
 }
 p, h3 {
-  margin: 5px;
+  margin: 15px 0;
 }
+
 
 /*********************************Responsive Styles*********************************/
 
