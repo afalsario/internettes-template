@@ -1605,7 +1605,6 @@ p, h3 {
 @media screen and (max-width : 1024px){
 
   .logo {
-    float: none;
     text-align: center;
   }
   /*Make dropdown links appear inline*/
