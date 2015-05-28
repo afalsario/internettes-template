@@ -1560,7 +1560,7 @@ div.desc {
   border-bottom-width: 80%;
 }
 p, h3 {
-  margin: 5px;
+  margin: 0px;
 }
 
 /*********************************Responsive Styles*********************************/
