@@ -103,8 +103,11 @@ echo $header . $nav . $content_before;
 					<p>15 X 18</p>
 					<p>$900 USD</p>
 			</div>
+            
                 </section>
+
             </div>
+
         </div>
 
 
