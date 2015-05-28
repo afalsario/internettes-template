@@ -20,19 +20,8 @@ echo $header . $nav . $content_before;
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
 
 <?php echo $content_after; ?>
-
-    <div class="cta">
-        <div class="row">
-            <h1 class="small-12 columns">Join My Mailing List</h1>
-            <form>
-                <input type="text" placeholder="Email Address">
-                <input type="submit" class="button" value="Submit">
-            </form>
-        </div>
-    </div>
 
 <?php echo $footer; ?>
 
