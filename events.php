@@ -12,7 +12,7 @@ echo $header . $nav . $content_before;
 			<p>Time:9:00pm</p>
 			<p>Location: 1111 Moscato Lane, San Antonio, Tx 78218</p>
 			<p>Description: Just Artist enjoying 2 of their favorite things.</p>
-			<a href="#"><button class="button center">More Details</button></a>
+			<a href="event.php"><button class="button center">More Details</button></a>
 		</div>
 	</div>
 	<div class="padding"></div>
@@ -23,7 +23,7 @@ echo $header . $nav . $content_before;
 			<p>Time:6:00pm</p>
 			<p>Location: 7000 Asiago Lane, San Antonio, Tx, 78146</p>
 			<p>Description: Let us eat cheese and Paint!</p>
-			<a href="#"><button class="button center">More Details</button></a>
+			<a href="event.php"><button class="button center">More Details</button></a>
 		</div>
 	</div>
 </div>

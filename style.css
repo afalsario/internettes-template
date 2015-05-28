@@ -1170,6 +1170,10 @@ select {
 
 /*********************************Header*********************************/
 
+header h1 {
+    margin-bottom: 0px;
+  }
+
 .topbar {
     height: 40px;
     width:100%;
@@ -1300,6 +1304,11 @@ input[type=checkbox]{
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
     display: block;
+}
+
+
+.main-content {
+  padding-top: 50px;
 }
 
 /*********************************Feature*********************************/
@@ -1462,6 +1471,12 @@ form.newsletter  {
   margin:5px;
 }
 
+.newsletter input[type=email] {
+  border: 3px solid #E56038;
+  max-width: 100%;
+  margin: 5px;
+}
+
 .newsletter input[type=submit] {
   margin: 5px;
 }
@@ -1502,6 +1517,7 @@ div.index {
 
 .index p, h4 {
   text-align: left;
+  margin-top: 0;
 }
 
 /*********************************Works Page*********************************/
@@ -1533,6 +1549,26 @@ div.index {
 
 .box img:hover {
     border: 3px solid #333333;
+}
+
+/*********************************Pages Page*********************************/
+.page-list {
+  text-align: center;
+
+}
+
+.page-list a {
+  color: #4A463B;
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 3px solid #E56038;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.page-list a:hover {
+  color: #E56038;
 }
 
 
@@ -1618,6 +1654,9 @@ p, h3 {
     font-size: 20px;
     padding: 5px;
     color: #FFF;
+  }
+  .main-content {
+    padding-top: 10px;
   }
 
 }
@@ -1902,7 +1941,7 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
 .padding {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 a.contact-button {
