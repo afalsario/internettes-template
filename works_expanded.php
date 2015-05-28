@@ -5,7 +5,6 @@ echo $header . $nav . $content_before;
 <div class="row recent-work">
             <h1 class="small-12 large-centered columns">Nature's Beauty</h1>
             <div class="large-4 medium-4 columns">
-<<<<<<< HEAD
                 <section class="box feature">
                     <a href="workszoom.php" class="image featured"><img src="images/birdflower.png" alt="" /></a>
                     <div class="inner">
@@ -116,14 +115,31 @@ echo $header . $nav . $content_before;
 					<p>$900 USD</p>
 			</div>
 
+
                 </section>
 
             </div>
+        </div>
+        <div class="row recent-work">
+            <div class="large-6 columns"></div>
+            <div class="large-6 medium-6 columns">
+                <ul class="pagination">
+                <li class="arrow unavailable"><a href="">&laquo;</a></li>
+                <li class="current"><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li class="unavailable"><a href="">&hellip;</a></li>
+                <li><a href="">12</a></li>
+                <li><a href="">13</a></li>
+                <li class="arrow"><a href="">&raquo;</a></li>
+            </ul>
 
+            </div>
         </div>
 
-
-
+<br></br>
+<br></br>
 
 <?php echo $content_after; ?>
 <?php echo $footer; ?>
