@@ -17,11 +17,6 @@ echo $header . $nav . $content_before;
         <i class="fa fa-instagram"></i>
         <i class="fa fa-rss"></i>
     </div>
-    <h5 class="small-12 columns">Join My Mailing List</h5>
-    <form>
-        <input type="text" placeholder="Email Address">
-        <input type="submit" class="button" value="Submit">
-    </form>
 </div>
 <div class="about large-8 medium-8 columns">
     <h5 class="left">PROGRAMMER, WRITER, ILLUSTRATOR, DESIGNER</h5>
