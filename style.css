@@ -1577,6 +1577,35 @@ div.index {
 }
 
 
+/*********************************Articles Page*********************************/
+
+.article-list a {
+  color: #4A463B;
+  font-size: 20px;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
+
+.article-list p {
+  border-bottom: 3px solid #E56038;
+  margin-bottom: 40px;
+}
+
+.article-list a:hover {
+  color: #E56038;
+}
+
+.article-details {
+    border-bottom: 3px solid #E56038;
+    margin-bottom: 40px;
+}
+
+.article-content img {
+    margin: 5px auto;
+    display: block;
+}
+
 
 /*********************************Custom CSS*********************************/
 
