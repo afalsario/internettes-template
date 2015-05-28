@@ -5,7 +5,6 @@ echo $header . $nav . $content_before;
 <div class="row recent-work">
             <h1 class="small-12 large-centered columns">Nature's Beauty</h1>
             <div class="large-4 medium-4 columns">
-<<<<<<< HEAD
                 <section class="box feature">
                     <a href="workszoom.php" class="image featured"><img src="images/birdflower.png" alt="" /></a>
                     <div class="inner">
