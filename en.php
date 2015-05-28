@@ -15,14 +15,16 @@ echo $header . $nav . $content_before;
     </div>
     <div class="row left">
         <div class="large-12 left columns">
-            <input type="text" placeholder="Email Address (required)">
+            <input type="email" placeholder="Email Address (required)" required>
         </div>
     </div>
     <div class="clearfix"></div>
      <div class="row left">
         <div class="large-12 left columns">
-            <input type="radio" name="subscription-status" value="subscribe" class="newsletter">Subscribe
-            <input type="radio" name="subscription-status" value="unsubscribe">Unsubscribe
+            <label>Subscribe</label>
+            <input type="radio" name="subscription-status" value="subscribe" class="newsletter">
+            <label>Unsubscribe</label>
+            <input type="radio" name="subscription-status" value="unsubscribe">
         </div>
     </div>
     <div class="clearfix"></div>
