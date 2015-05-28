@@ -7,6 +7,7 @@ echo $header . $nav . $content_before;
 <div id="contact-form" class="clearfix">
     <h1>Want to know more?</h1>
     <h2>Get in Touch</h2>
+    <img src="images/blueflowers.png" alt="Klematis" class="collect_image">
     <ul id="errors" class="">
         <li id="info">There were some problems with your form submission:</li>
     </ul>
@@ -19,7 +20,7 @@ echo $header . $nav . $content_before;
         <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
 
         <label for="telephone">Telephone: </label>
-        <input type="tel" id="telephone" name="telephone" value="" />
+        <input type="tel" id="telephone" placeholder="(555)555-5555" name="telephone" value="" />
 
         <label for="message">Message: <span class="required">*</span></label>
         <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
