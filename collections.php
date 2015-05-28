@@ -59,9 +59,23 @@ echo $header . $nav . $content_before;
 			<div class="center_button">
 				<a href="#"><button class="button">View Collection</button></a>
 			</div>
+			<br>
+			<ul class="pagination">
+				<li class="arrow unavailable"><a href="">&laquo;</a></li>
+  				<li class="current"><a href="">1</a></li>
+  				<li><a href="">2</a></li>
+  				<li><a href="">3</a></li>
+  				<li><a href="">4</a></li>
+  				<li class="unavailable"><a href="">&hellip;</a></li>
+  				<li><a href="">12</a></li>
+  				<li><a href="">13</a></li>
+  				<li class="arrow"><a href="">&raquo;</a></li>
+			</ul>
 		</div>
+
 	</div>
 </div>
+
 
 <?php echo $content_after; ?>
 <?php echo $footer; ?>
