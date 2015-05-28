@@ -3,9 +3,21 @@
 echo $header . $nav . $content_before;
 ?>
 
-        <div class="featured-image large-12 columns">
-            <img src="images/picture-of-flowers.jpg" alt="Yellow Flower" height="600" width="800">
+<h1>Learn The Art of The Flower</h1>
+<br></br>
+<div class="wrapper">
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <img class="image-blog" src="images/paint.png" style="width:600; height:300px;" alt=""/>
         </div>
+         <div class="padding"></div>
+        <div class="large-12 small-12 columns">
+            <p>Dates:07/07/2015-08/22/2015</p>
+            <p>Location: 1234 Garden Lane, San Antonio, Tx 78218</p>
+            <p>Description: Learn how to paint a nothing less than perfect flower with a family of people around you.</p>
+            <p>Price: $300</p>
+        </div>
+    </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -20,9 +32,11 @@ echo $header . $nav . $content_before;
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a href="" class="contact-button center">Sign Up</a>
+<div class="padding"></div> 
+</div>
 
-<?php echo $content_after; ?>
 
+
+    <?php echo $content_after; ?>
 <?php echo $footer; ?>
-
-

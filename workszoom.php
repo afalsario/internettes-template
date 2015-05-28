@@ -24,11 +24,11 @@ echo $header . $nav . $content_before;
     <div class="large-6 medium-6 small-12 columns">
         <section class="box">
             <h2 class="left-align">Gallery Info</h2>
-        <h4 class="zoom_left">Interesting Fine Art Gallery</h4>
-        <p>(907) 903-9997<br>
+            <h4 class="zoom_left">Interesting Fine Art Gallery</h4>
+            <p>(907) 903-9997<br>
             4th Avenue Marketplace, 333 W. 4th Ave, #211<br>
             Anchorage, Alaska 99501
-        </p>
+         </p>
         <a href="#"><button class="button center">More Details</button></a>
     </div> 
 </div>
