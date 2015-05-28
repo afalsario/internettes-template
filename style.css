@@ -1474,7 +1474,7 @@ div.index {
   border: 3px solid #E56038;
   border-radius: 10px;
   max-width: 300px;
-  min-height: 255px;
+  min-height: 270px;
   padding: 10px;
   margin: 15px;
   display: inline-block;
@@ -1622,6 +1622,12 @@ p, h3 {
     text-align: center;
   }
 
+  ul#menu{
+    float: none;
+    position: static;
+    width: auto;
+  }
+
 
   nav li a:hover{
     text-decoration: none;
@@ -1629,8 +1635,8 @@ p, h3 {
     color:  #E56038;
   }
 
-  nav li {
-    padding-right: 0;
+  .main-nav li {
+    padding-right: 0px;
   }
 
   /*Display 'show menu' link*/
