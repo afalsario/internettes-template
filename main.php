@@ -3,7 +3,7 @@
 echo $header . $nav . $content_before;
 ?>
 
-        <div class="featured-image large-12 columns">
+        <div class="featured-image">
             <img src="images/picture-of-flowers.jpg" alt="Yellow Flower" height="600" width="800">
         </div>
 

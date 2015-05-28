@@ -5,7 +5,7 @@ echo $header . $nav . $content_before;
 
 <h1>View my work at one of these galleries.</h1>
 
-<div class="content-box large-12 columns">
+<div class="content-box large-12 large-centered columns">
     <div class="index large-6 medium-12 small-12 columns">
         <h4>Interesting Fine Art Gallery</h4>
         <p>(907) 903-9997<br>
