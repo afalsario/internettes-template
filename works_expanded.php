@@ -120,6 +120,7 @@ echo $header . $nav . $content_before;
 
             </div>
         </div>
+        
         <div class="row recent-work">
             <div class="large-6 columns"></div>
             <div class="large-6 medium-6 columns">
