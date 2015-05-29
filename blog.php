@@ -38,6 +38,7 @@ echo $header . $nav . $content_before;
 
 
 
+
 <div class="wrap">
     <h2 class="left-align">Please leave a comment:</h2>
     <div class="row">
@@ -61,11 +62,19 @@ echo $header . $nav . $content_before;
             <textarea id="comment" placeholder="Your comment"></textarea>
         </div>
 
-        <div class="row">
+        <div class="row center">
             <div class=" newsletter small-12 large-12 columns">
                 <input class="button" type="submit" value="Submit" id="submit-button" />
             </div>
         </div>
+        <br>
+        <h3 class="left">Share With Friends:  </h3>
+        <span class='st_sharethis_large' displayText='ShareThis'></span>
+        <span class='st_facebook_large' displayText='Facebook'></span>
+        <span class='st_twitter_large' displayText='Tweet'></span>
+        <span class='st_linkedin_large' displayText='LinkedIn'></span>
+        <span class='st_pinterest_large' displayText='Pinterest'></span>
+        <span class='st_email_large' displayText='Email'></span>
     </div>
 </div>
 
