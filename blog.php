@@ -37,34 +37,48 @@ echo $header . $nav . $content_before;
 	</p>
 
 
-<?php echo $content_after; ?>
 
-<div class="cta">
-        <div class="row">
-        	<h2>Say Something!</h2>
-            <form class="newsletter background-grey">
-    <div class="row left">
-        <div class="large-4 left columns">
-            <input type="text" placeholder="First Name">
+<div class="wrap">
+    <h2 class="left-align">Please leave a comment:</h2>
+    <div class="row">
+        <div class="newsletter small-4 large-4 columns">
+            <label for="name">Your name</label>
+            <input id="name" type="text" placeholder="Your name">
         </div>
-        <div class="large-4 left columns">
-            <input type="text" placeholder="Last Name">
+        <div class=" newsletter small-4 large-4 columns">
+            <label for="mail">Mail</label>
+            <input id="mail" type="text" placeholder="Your mail">
         </div>
-        <div class="large-4 left columns">
-            <input type="text" placeholder="Email Address">
-        </div>
-        <div class="row left">
-        	<div class="move_left large-12 columns">
-        		<textarea placeholder="comment"></textarea>
-        	</div>
-        </div>
-    <div class="clearfix"></div>
-    <div class="row left">
-        <div class="large-12 left columns">
-            <input style="margin-left:320px;" type="submit" class="button" value="Submit">
+        <div class=" newsletter small-4 large-4 columns">
+            <label for="website">Your website</label>
+            <input id="website" type="text" placeholder="Your website">
         </div>
     </div>
-</form>
+
+    <div class="row">
+        <div class=" newsletter small-12 large-12 columns">
+            <label for="comment">Your comment</label>
+            <textarea id="comment" placeholder="Your comment"></textarea>
+        </div>
+
+        <div class="row">
+            <div class=" newsletter small-12 large-12 columns">
+                <input class="button" type="submit" value="Submit" id="submit-button" />
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+
+<br><br><br><br>
+
+
+<?php echo $content_after; ?>
+
+
+
+
 
 
 </div>

@@ -2059,3 +2059,77 @@ ul.pagination {
     display: inline-block;
     float: none; }
 
+
+/** Comment Form **/
+
+.wrap {
+  height: 400px;
+  max-width: auto;
+  background-color: white;
+  padding: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.field {
+  position: relative;
+  margin-bottom: 10px;
+  input, textarea {
+    width: 100%;
+    display: block;
+    outline: none;
+    padding: 5px;
+    &:focus {
+      border: 2px solid orange;
+    }
+    &:focus + label {
+      display: block;
+    }
+  }
+  textarea {
+    height: 150px;
+  }
+  label {
+    width: 100%;
+    background-color: white;
+    display: block;
+    color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 300;
+    display: none;
+  }
+}
+h2 {
+  font-weight: 300;
+}
+
+.small {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+  &:first-child {
+    margin-left: 0%;
+  }
+}
+.large {
+  float:left;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+   font-weight: 300;
+}
+:-moz-placeholder { /* Firefox 18- */
+   font-weight: 300; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   font-weight: 300; 
+}
+:-ms-input-placeholder {  
+   font-weight: 300; 
+}
+
