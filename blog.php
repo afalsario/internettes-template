@@ -8,11 +8,12 @@ echo $header . $nav . $content_before;
 </div>
 
   	<div class="medium-10 columns"><img class="image-blog" src="images/pinktulips.jpg" alt=""/></div>
-  	<div class="medium-12 columns"><p>Published on 3/4/2015 5:06:25 PM<p></div>
+  	<div class="medium-12 columns"><p style="color:#e56038;">Published on 3/4/2015 5:06:25 PM<p></div>
 
 
 <div class="row">
 	<div class="medium-12 small-12 columns">
+        <div class="padding"></div>
 		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -35,11 +36,13 @@ echo $header . $nav . $content_before;
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</p>
+    <div class="padding"></div>
 
 
 
 
 <div class="wrap">
+    <form>
     <h2 class="left-align">Please leave a comment:</h2>
     <div class="row">
         <div class="newsletter small-4 large-4 columns">
@@ -77,10 +80,11 @@ echo $header . $nav . $content_before;
         <span class='st_email_large' displayText='Email'></span>
     </div>
 </div>
+</form>
 
   
 
-<br><br><br><br>
+<div class="padding"></div>
 
 
 <?php echo $content_after; ?>
