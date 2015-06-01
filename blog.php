@@ -1,6 +1,6 @@
 <?php include 'masterindex.php' ?>
 <?php
-echo $header . $nav . $content_before;
+echo $header . $nav . $blog_menu . $content_before;
 ?>
 
 <div class="row">
