@@ -9,6 +9,9 @@ $header = '
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="http://fonts.googleapis.com/css?family=Baumans" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "3183727a-e514-43ed-bb4c-1b4dc38b1947", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     </head>
     <body>
     <div class="topbar">
@@ -131,3 +134,20 @@ $header = '
         </footer>
     </body>
 </html>' ?>
+<?php $blog_menu=
+    '<div class="blog_menu">
+        <div class="row">
+            <nav class="header-nav large-6 medium-6 small-1 left columns">
+                <label for="topbar-menu" class="topbar-menu">Menu</label>
+                <input type="checkbox" id="topbar-menu" role="button">
+                <ul id="top-menu">
+                    <li><a href="blogfront.php">Catagories</a></li>
+                    <li><a href="blogfront.php">Archives</a></li>
+                    <li></li>
+                </ul>
+            </nav>
+            </div>
+            </div>
+    '
+
+?>

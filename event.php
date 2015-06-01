@@ -21,7 +21,7 @@ echo $header . $nav . $content_before;
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 		<div class="featured-image large-12 columns"><img src="images/wine.jpg" alt="Yellow Flower"></div>
-	</div>
+	
 
 
 

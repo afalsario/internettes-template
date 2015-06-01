@@ -4,20 +4,20 @@ echo $header . $nav . $content_before;
 ?>
 
 <h1>Learn The Art of The Flower</h1>
-<br></br>
 <div class="wrapper">
     <div class="row">
         <div class="large-12 small-12 columns">
             <img class="image-blog" src="images/paint.png" style="width:600; height:300px;" alt=""/>
         </div>
-         <div class="padding"></div>
+        
         <div class="large-12 small-12 columns">
+            <div class="padding"></div>
             <p>Dates:07/07/2015-08/22/2015</p>
             <p>Location: 1234 Garden Lane, San Antonio, Tx 78218</p>
             <p>Description: Learn how to paint a nothing less than perfect flower with a family of people around you.</p>
             <p>Price: $300</p>
         </div>
-    </div>
+    </div><br>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

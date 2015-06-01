@@ -14,7 +14,7 @@ echo $header . $nav . $content_before;
 			<p>Dates:07/07/2015-08/22/2015</p>
 			<p>Location: 1234 Garden Lane, San Antonio, Tx 78218</p>
 			<p>Description: Learn how to paint a nothing less than perfect flower with a family of people around you.</p>
-			<a href="#"><button class="button center">More Details</button></a>
+			<a href="workshop.php"><button class="button center">More Details</button></a>
 		</div>
 	</div>
 	<div class="row">
@@ -26,7 +26,7 @@ echo $header . $nav . $content_before;
 			<p>Dates: 07/07/2015-08/22/2015</p>
 			<p>Location: 3456 Geekout Lane, San Antonio, Tx, 78146</p>
 			<p>Description: How to combine love of art with today's technology</p>
-			<a href="#"><button class="button center">More Details</button></a>
+			<a href="workshop.php"><button class="button center">More Details</button></a>
 		</div>
 	</div>
 </div>
