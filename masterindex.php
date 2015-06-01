@@ -134,6 +134,7 @@ $header = '
         </footer>
     </body>
 </html>' ?>
+
 <?php $blog_menu=
     '<div class="blog_menu">
         <div class="row">
@@ -146,8 +147,7 @@ $header = '
                     <li></li>
                 </ul>
             </nav>
-            </div>
-            </div>
-    '
+        </div>
+    </div>'
 
 ?>
