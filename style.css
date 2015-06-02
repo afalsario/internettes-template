@@ -1727,9 +1727,9 @@ p, h3 {
   }
 
   .dpw-icon {
-    height: 16px;
+    height: 17px;
     width: 16px;
-    background-size: 16px 16px;
+    background-size: 15px 15px;
   }
 
   .cols {
@@ -1785,7 +1785,8 @@ p, h3 {
 #contact-form input, 
 #contact-form select, 
 #contact-form textarea {
-    max-width:400px;
+  width: 400px;
+    max-width:100%;
     border: 1px solid #CEE1E8;
     margin-bottom:20px;
     padding:4px;
