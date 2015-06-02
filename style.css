@@ -1143,6 +1143,7 @@ header h1 {
     height: 40px;
     width:100%;
     background-color: #e56038;
+    /*position: relative;*/
 }
 
 .topbar li a{
@@ -1161,6 +1162,20 @@ header h1 {
 
 .icons {
   text-align: right;
+}
+
+.dpw-icon {
+  display: inline-block;
+  background-image: url(images/dpw-icon.png);
+  background-repeat: no-repeat;
+  height:37px;
+  width: 35px;
+  vertical-align: sub;
+}
+
+.dpw-icon:hover {
+    background-image: url(images/dpw-dark.png);
+    background-repeat: no-repeat;
 }
 
 /*Hide checkbox*/
@@ -1717,11 +1732,23 @@ p, h3 {
   .fa {
     font-size: 26px;
   }
+
+  .dpw-icon {
+    height: 26px;
+    width: 26px;
+    background-size: 26px 26px;
+  }
 }
 @media screen and (max-width : 500px){
 
   .fa {
     font-size: 16px;
+  }
+
+  .dpw-icon {
+    height: 17px;
+    width: 16px;
+    background-size: 15px 15px;
   }
 
   .cols {
@@ -1739,7 +1766,7 @@ p, h3 {
 
 #contact-form {
     background-color: #333333;
-    width:465px;
+    max-width:465px;
     padding:20px;
     margin-top: 0;
     margin-bottom: 50px;
@@ -1777,7 +1804,8 @@ p, h3 {
 #contact-form input, 
 #contact-form select, 
 #contact-form textarea {
-    width:400px;
+  width: 400px;
+    max-width:100%;
     border: 1px solid #CEE1E8;
     margin-bottom:20px;
     padding:4px;
@@ -1945,7 +1973,7 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
  textarea {
-  width:940px;
+  max-width:940px;
   border: 3px solid #E56038;
   max-width: 100%;
   margin:5px;
