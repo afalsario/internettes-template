@@ -175,10 +175,17 @@ select {
 
 /*  .small-2 {
     width: 16.66667%; }*/
+<<<<<<< HEAD
 
 /*  .small-3 {
     width: 25%; }*/
 
+=======
+
+/*  .small-3 {
+    width: 25%; }*/
+
+>>>>>>> master
 /*  .small-4 {
     width: 33.33333%; }*/
 
@@ -1455,6 +1462,7 @@ h2 {
     background-color: #fff;
 }
 
+
 nav ul ul {
   display: none;
 }
@@ -1482,6 +1490,7 @@ nav ul ul li a {
 
 .blog_menu ul li a:hover {
   border: none;
+
 
 } 
 
