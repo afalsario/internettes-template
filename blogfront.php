@@ -1,6 +1,6 @@
 <?php include 'masterindex.php' ?>
 <?php
-echo $header . $nav . $content_before;
+echo $header . $nav . $blog_menu . $content_before;
 ?>
 
 <h1>Passion For Paint</h1>
@@ -36,7 +36,7 @@ echo $header . $nav . $content_before;
 
 <div class="row">
 	<div class="medium-12 columns">
-		<br></br>
+		<br>
 		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
