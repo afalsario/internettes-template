@@ -16,7 +16,7 @@ $header = '
     <body>
     <div class="topbar">
         <div class="row">
-            <nav class="header-nav large-6 medium-6 small-1 left columns">
+            <nav class="header-nav large-6 medium-5 small-1 left columns">
                 <label for="topbar-menu" class="topbar-menu">Menu</label>
                 <input type="checkbox" id="topbar-menu" role="button">
                 <ul id="top-menu">
@@ -25,7 +25,7 @@ $header = '
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="icons large-6 medium-6 small-10 columns">
+            <div class="icons large-6 medium-7 small-10 columns">
                 <div class="dpw-icon"></div>
                 <i class="fa fa-facebook-square"></i>
                 <i class="fa fa-tumblr-square"></i>
