@@ -175,10 +175,17 @@ select {
 
 /*  .small-2 {
     width: 16.66667%; }*/
+<<<<<<< HEAD
 
 /*  .small-3 {
     width: 25%; }*/
 
+=======
+
+/*  .small-3 {
+    width: 25%; }*/
+
+>>>>>>> master
 /*  .small-4 {
     width: 33.33333%; }*/
 
@@ -1456,6 +1463,34 @@ h2 {
 }
 
 
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
 
 
+nav ul ul {
+  background: white; border-radius: 0px; padding: 0;
+  position: absolute; top: 100%;
+}
+
+
+nav ul ul li {
+  float: none; 
+
+}
+
+nav ul ul li a {
+  padding: 15px 10px;
+  color: #333;
+} 
+
+.blog_menu ul li a:hover {
+  border: none;
+
+
+} 
 
