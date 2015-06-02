@@ -40,15 +40,15 @@ echo $header . $nav . $blog_menu . $content_before;
     <form>
         <h2 class="left-align">Please leave a comment:</h2>
         <div class="row">
-            <div class="newsletter small-4 large-4 columns">
+            <div class="newsletter small-12 large-4 columns">
                 <label for="name">Your name</label>
                 <input id="name" type="text" placeholder="Your name">
             </div>
-            <div class=" newsletter small-4 large-4 columns">
+            <div class=" newsletter small-12 large-4 columns">
                 <label for="mail">Mail</label>
                 <input id="mail" type="text" placeholder="Your mail">
             </div>
-            <div class=" newsletter small-4 large-4 columns">
+            <div class=" newsletter small-12 large-4 columns">
                 <label for="website">Your website</label>
                 <input id="website" type="text" placeholder="Your website">
             </div>
@@ -56,11 +56,11 @@ echo $header . $nav . $blog_menu . $content_before;
 
         <div class="row">
             <div class=" newsletter small-12 large-12 columns">
-                <label for="comment">Your comment</label>
+                <label for="comment">Your comment</label><br>
                 <textarea id="comment" placeholder="Your comment"></textarea>
             </div>
             <div class="row center">
-                <div class=" newsletter small-12 large-12 columns">
+                <div class=" newsletter comment-button small-12 large-12 columns">
                     <input class="button" type="submit" value="Submit" id="submit-button" />
                 </div>
             </div><br>

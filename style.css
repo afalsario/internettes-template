@@ -1314,6 +1314,7 @@ input[type=checkbox]:checked ~ #menu{
   width: 100%;
   background-color: #E56038;
   min-height: 200px;
+  margin-top: 40px;
 }
 
 .cta h1 {
@@ -1954,7 +1955,7 @@ input.placeholder-text, textarea.placeholder-text  {
 }
 
  textarea {
-  max-width:940px;
+  width:940px;
   border: 3px solid #E56038;
   max-width: 100%;
   margin:5px;
@@ -2089,6 +2090,10 @@ ul.pagination {
 
 
 /********************** Comment Form **********************/
+
+.comment-button input[type=submit]:hover {
+  background-color: #EBE8DE;
+}
 
 .wrap {
   width: 700px;
