@@ -139,10 +139,8 @@ $header = '
 <?php $blog_menu=
     '<div class="blog_menu">
         <div class="row">
-            <nav class="header-nav large-6 medium-6 small-1 left columns">
-                <label for="topbar-menu" class="topbar-menu">Menu</label>
-                <input type="checkbox" id="topbar-menu" role="button">
-                <ul id="top-menu">
+            <nav class="large-12 medium-12 small-12 columns">
+                <ul>
                     <li><a href="blogfront.php">Catagories</a>
                         <ul>
                             <li><a href="">Test #1</a></li>
@@ -157,7 +155,6 @@ $header = '
                             <li><a href="">Test #1</a></li>
                         </ul>
                     </li>
-                    
                 </ul>
             </nav>
         </div>
