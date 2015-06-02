@@ -32,8 +32,8 @@ echo $header . $nav . $content_before;
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<a href="" class="contact-button center">Sign Up</a>
-<div class="padding"></div> 
+<a href="#"><button class="button">Sign Up</button></a>
+<div class="padding"></div>
 </div>
 
 
