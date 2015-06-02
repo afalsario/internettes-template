@@ -26,6 +26,7 @@ $header = '
                 </ul>
             </nav>
             <div class="icons large-6 medium-6 small-10 columns">
+                <div class="dpw-icon"></div>
                 <i class="fa fa-facebook-square"></i>
                 <i class="fa fa-tumblr-square"></i>
                 <i class="fa fa-twitter-square"></i>
