@@ -8,8 +8,15 @@ echo $header . $nav . $blog_menu . $content_before;
   <div class="large-12 columns medium-12 columns small-12 columns"><h2 class="left-align">Inspiration Behind Pink Tulips</h2></div>
 </div>
 <div class="row">
-  	<div class="medium-9 columns"><img class="image-blog" src="images/pinktulips.jpg" alt="" /></div>
-  	<div class="medium-3 columns"><p>Published on 3/4/2015 5:06:25 PM<p><p>By: Amanda Beller</p><p><a href="#">Comment</a></p><p><a href="#">Share</a></p></div>
+  	<div class="medium-9 columns">
+  		<img class="image-blog" src="images/pinktulips.jpg" alt="" />
+  	</div>
+  	<div class="medium-3 columns">
+  		<p>Published on:</p><p class="orange">3/4/2015 5:06:25 PM</p>
+  		<p>By: Amanda Beller</p>
+  		<p><a class="comment_share" href="#">Comment</a></p>
+  		<p><a class="comment_share" href="#">Share</a></p>
+  	</div>
 </div>
 
 <div class="row">
@@ -31,7 +38,7 @@ echo $header . $nav . $blog_menu . $content_before;
 </div>
 <div class="row">
   	<div class="medium-9 columns"><img class="image-blog" src="images/longroad.jpg" alt="" /></div>
-  	<div class="medium-3 columns"><p>Published on 3/4/2015 5:06:25 PM<p><p>By: Amanda Beller</p><p><a href="#">Comment</a></p><p><a href="#">Share</a></p></div>
+  	<div class="medium-3 columns"><p>Published on 3/4/2015 5:06:25 PM<p><p>By: Amanda Beller</p><p><a class="comment_share" href="#">Comment</a></p><p><a class="comment_share" href="#">Share</a></p></div>
 </div>
 
 <div class="row">
@@ -52,7 +59,7 @@ echo $header . $nav . $blog_menu . $content_before;
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 		<a href="blog.php"><button class="button">Read More</button></a>
-		<div class="blog-padding"></div>
+		<div class="padding"></div>
 
 </div>
   	
