@@ -8,11 +8,12 @@ echo $header . $nav . $blog_menu . $content_before;
 </div>
 
 <div class="medium-10 columns"><img class="image-blog" src="images/pinktulips.jpg" alt=""/></div>
-<div class="medium-12 columns"><p style="color:#e56038;">Published on 3/4/2015 5:06:25 PM<p></div>
+<div class="medium-12 columns"><p class="orange">Published on 3/4/2015 5:06:25 PM<p></div>
 
 <div class="row">
 	<div class="medium-12 small-12 columns">
         <div class="padding"></div>
+
         <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -91,5 +92,9 @@ echo $header . $nav . $blog_menu . $content_before;
 </div>
 
         </div>
+        <div class="padding"></div>
+        <?php echo $content_after; ?>
     </div>
+</div>
+    
 <?php echo $footer; ?>

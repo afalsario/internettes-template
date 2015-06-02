@@ -1615,6 +1615,25 @@ p, h3 {
   margin: 0px 0;
 }
 
+.orange {
+  color:#e56038;
+}
+
+.comment_share {
+  text-decoration: none !important;
+  padding top:3px;
+  padding bottom:3px;
+  color:#333;
+}
+
+
+ a.comment_share {
+  color:#333;
+ } 
+
+ .comment_share p a:hover{
+  color:orange;
+ }
 
 /*********************************Responsive Styles*********************************/
 
@@ -2205,6 +2224,8 @@ nav ul ul li a:hover {
 .blog_menu ul li a:hover {
   border: none;
 } 
-  
+
+
+
 
 
