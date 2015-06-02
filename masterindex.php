@@ -142,9 +142,21 @@ $header = '
                 <label for="topbar-menu" class="topbar-menu">Menu</label>
                 <input type="checkbox" id="topbar-menu" role="button">
                 <ul id="top-menu">
-                    <li><a href="blogfront.php">Catagories</a></li>
-                    <li><a href="blogfront.php">Archives</a></li>
-                    <li></li>
+                    <li><a href="blogfront.php">Catagories</a>
+                        <ul>
+                            <li><a href="">Test #1</a></li>
+                            <li><a href="">Test #1</a></li>
+                            <li><a href="">Test #1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blogfront.php">Archives</a>
+                      <ul>
+                            <li><a href="">Test #1</a></li>
+                            <li><a href="">Test #1</a></li>
+                            <li><a href="">Test #1</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </nav>
         </div>
