@@ -17,6 +17,7 @@ echo $header . $nav . $content_before;
 			<a href="workshop.php"><button class="button center">More Details</button></a>
 		</div>
 	</div>
+	<div class="padding"></div>
 	<div class="row">
 		<div class="large-4 small-6 columns">
 			<img class="image-blog" src="images/computer.jpg" alt=""/>

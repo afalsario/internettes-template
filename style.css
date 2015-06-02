@@ -893,13 +893,12 @@ p, h3 {
 
 
  a.comment_share {
-  color:#333;
+  color:#e56038;
  } 
 
- .comment_share p a:hover{
-  color:orange;
+ a:hover {
+  color: #333;
  }
-
 /*********************************Responsive Styles*********************************/
 
 
