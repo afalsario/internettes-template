@@ -5,23 +5,26 @@ echo $header . $nav . $blog_menu . $content_before;
 
 <h1>Passion For Paint</h1>
 <div class="row">
-  <div class="large-12 columns medium-12 columns small-12 columns"><h2 class="left-align">Inspiration Behind Pink Tulips</h2></div>
+  <div class="large-12 columns medium-12 columns small-12 columns">
+  	<h2 class="left-align">Inspiration Behind Pink Tulips</h2>
+  </div>
 </div>
+
 <div class="row">
   	<div class="medium-9 columns">
-  		<img class="image-blog" src="images/pinktulips.jpg" alt="" />
+  		<img class="image-blog" src="images/pinktulips.jpg" alt=""/>
   	</div>
   	<div class="medium-3 columns">
-  		<p>Published on:</p><p class="orange">3/4/2015 5:06:25 PM</p>
+  		<p>Published on:</p>
+  		<p class="orange">3/4/2015 5:06:25 PM</p>
   		<p>By: Amanda Beller</p>
-  		<p><a class="comment_share" href="#">Comment</a></p>
-  		<p><a class="comment_share" href="#">Share</a></p>
+  		<p><a class="comment_share" href="blog.php">Comment</a></p>
+  		<p><a class="comment_share" href="blog.php">Share</a></p>
   	</div>
 </div>
 
 <div class="row">
-	<div class="medium-12 small-12 columns">
-		<br></br>
+	<div class="medium-12 small-12 columns"><br>
 		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -31,19 +34,29 @@ echo $header . $nav . $blog_menu . $content_before;
 		</p>
 		<a href="blog.php"><button class="button">Read More</button></a>
 		<div class="padding"></div>
+	</div>
 </div>
   
 <div class="row">
-  <div class="large-12 small-12 columns"><h2 class="left-align">Life's a Long Road</h2></div>
-</div>
-<div class="row">
-  	<div class="medium-9 columns"><img class="image-blog" src="images/longroad.jpg" alt="" /></div>
-  	<div class="medium-3 columns"><p>Published on 3/4/2015 5:06:25 PM<p><p>By: Amanda Beller</p><p><a class="comment_share" href="#">Comment</a></p><p><a class="comment_share" href="#">Share</a></p></div>
+  <div class="large-12 small-12 columns">
+  	<h2 class="left-align">Life's a Long Road</h2>
+  </div>
 </div>
 
 <div class="row">
-	<div class="medium-12 columns">
-		<br>
+  	<div class="medium-9 columns">
+  		<img class="image-blog" src="images/longroad.jpg" alt="" />
+  	</div>
+  	<div class="medium-3 columns">
+  		<p>Published on 3/4/2015 5:06:25 PM</p>
+  		<p>By: Amanda Beller</p>
+  		<p><a class="comment_share" href="blog.php">Comment</a></p>
+  		<p><a class="comment_share" href="blog.php">Share</a></p>
+  	</div>
+</div>
+
+<div class="row">
+	<div class="medium-12 columns"><br>
 		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -60,7 +73,7 @@ echo $header . $nav . $blog_menu . $content_before;
 		</p>
 		<a href="blog.php"><button class="button">Read More</button></a>
 		<div class="padding"></div>
-
+	</div>
 </div>
   	
 <?php echo $content_after; ?>
