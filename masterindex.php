@@ -139,27 +139,24 @@ $header = '
 <?php $blog_menu=
     '<div class="blog_menu">
         <div class="row">
-            <nav class="header-nav large-6 medium-6 small-1 left columns">
-                <label for="topbar-menu" class="topbar-menu">Menu</label>
-                <input type="checkbox" id="topbar-menu" role="button">
-                <ul id="top-menu">
-                    <li><a href="blogfront.php">Catagories</a>
-                        <ul>
-                            <li><a href="">Test #1</a></li>
-                            <li><a href="">Test #1</a></li>
-                            <li><a href="">Test #1</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blogfront.php">Archives</a>
-                      <ul>
-                            <li><a href="">Test #1</a></li>
-                            <li><a href="">Test #1</a></li>
-                            <li><a href="">Test #1</a></li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-            </nav>
+            <label for="blog-menu" class="blog-menu">Menu</label>
+            <input type="checkbox" id="blog-menu" role="button">
+            <ul id="top-menu">
+                <li><a href="blogfront.php">Catagories</a>
+                    <ul>
+                        <li><a href="">Test #1</a></li>
+                        <li><a href="">Test #1</a></li>
+                        <li><a href="">Test #1</a></li>
+                    </ul>
+                </li>
+                <li><a href="blogfront.php">Archives</a>
+                  <ul>
+                        <li><a href="">Test #1</a></li>
+                        <li><a href="">Test #1</a></li>
+                        <li><a href="">Test #1</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>'
 
