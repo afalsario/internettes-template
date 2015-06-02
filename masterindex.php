@@ -22,7 +22,7 @@ $header = '
                 <ul id="top-menu">
                     <li><a href="blogfront.php">Blog</a></li>
                     <li><a href="en.php">Newsletter</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
             <div class="icons large-6 medium-7 small-10 columns">
