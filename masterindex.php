@@ -34,6 +34,7 @@ $header = '
                 <i class="fa fa-linkedin-square"></i>
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-rss"></i>
+                <div class="dpw-icon"><img src="images/dpw-icon.png"></div>
             </div>
         </div>
     </div>

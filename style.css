@@ -1163,6 +1163,16 @@ header h1 {
   text-align: right;
 }
 
+.dpw-icon {
+  display: inline;
+}
+
+.dpw-icon img {
+  display: inline-block;
+  vertical-align: top;
+  padding:2px;
+}
+
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;
