@@ -16,7 +16,7 @@ echo $header . $nav . $blog_menu . $content_before;
   	</div>
   	<div class="medium-3 columns">
   		<p>Published on:</p>
-  		<p class="orange">3/4/2015 5:06:25 PM</p>
+  		<p>3/4/2015 5:06:25 PM</p>
   		<p>By: Amanda Beller</p>
   		<p><a class="comment_share" href="blog.php">Comment</a></p>
   		<p><a class="comment_share" href="blog.php">Share</a></p>
