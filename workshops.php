@@ -6,10 +6,10 @@ echo $header . $nav . $content_before;
 <br></br>
 <div class="wrapper">
 	<div class="row">
-		<div class="large-4 small-6 columns">
+		<div class="large-4 small-12 columns">
 			<img class="image-blog" src="images/paint.png" alt=""/>
 		</div>
-		<div class="large-8 small-16 columns">
+		<div class="large-8 small-12 columns">
 			<h1 class="left-align">Learn The Art of The Flower</h1>
 			<p>Dates:07/07/2015-08/22/2015</p>
 			<p>Location: 1234 Garden Lane, San Antonio, Tx 78218</p>
@@ -19,10 +19,10 @@ echo $header . $nav . $content_before;
 	</div>
 	<div class="padding"></div>
 	<div class="row">
-		<div class="large-4 small-6 columns">
+		<div class="large-4 small-12 columns">
 			<img class="image-blog" src="images/computer.jpg" alt=""/>
 		</div>
-		<div class="large-8 small-16 columns">
+		<div class="large-8 small-12 columns">
 			<h1 class="left-align">Art From A Computer's Perspective</h1>
 			<p>Dates: 07/07/2015-08/22/2015</p>
 			<p>Location: 3456 Geekout Lane, San Antonio, Tx, 78146</p>

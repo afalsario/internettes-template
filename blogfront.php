@@ -18,8 +18,7 @@ echo $header . $nav . $blog_menu . $content_before;
   		<p>Published on:</p>
   		<p>3/4/2015 5:06:25 PM</p>
   		<p>By: Amanda Beller</p>
-  		<p><a class="comment_share" href="blog.php">Comment</a></p>
-  		<p><a class="comment_share" href="blog.php">Share</a></p>
+  		<p><a class="comment_share" HREF="blog.php#commentshare">Comment or Share</a></p>
   	</div>
 </div>
 
@@ -50,8 +49,7 @@ echo $header . $nav . $blog_menu . $content_before;
   	<div class="medium-3 columns">
   		<p>Published on 3/4/2015 5:06:25 PM</p>
   		<p>By: Amanda Beller</p>
-  		<p><a class="comment_share" href="blog.php">Comment</a></p>
-  		<p><a class="comment_share" href="blog.php">Share</a></p>
+  		<p><A class="comment_share" HREF="blog.php#commentshare">Comment or Share</a></p>
   	</div>
 </div>
 
